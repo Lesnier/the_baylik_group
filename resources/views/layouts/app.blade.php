@@ -7,10 +7,10 @@
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
-    <title>{{ config('app.name', 'Laravel') }}</title>
+    <title>{{ config('app.name', 'The Baylik Group') }}</title>
 
     <!-- Scripts -->
-    <script src="{{ asset('js/app.js') }}" defer></script>
+    <script src="{{ asset('/js/app.js') }}" defer></script>
 
     <!-- Fonts -->
     <link rel="dns-prefetch" href="//fonts.gstatic.com">
@@ -42,7 +42,7 @@
     <script src="/js/modernizr-2.6.2.min.js"></script>
 
     <!-- Styles -->
-    <link href="{{ asset('css/app.css') }}" rel="stylesheet">
+    <link href="{{ asset('/css/app.css') }}" rel="stylesheet">
 </head>
 <body>
     <div id="body">
@@ -100,28 +100,28 @@
     <!-- Essential jQuery Plugins
       ================================================== -->
     <!-- Main jQuery -->
-    <script src="js/jquery-1.11.1.min.js"></script>
+    <script src="/js/jquery-1.11.1.min.js"></script>
     <!-- Twitter Bootstrap -->
-    <script src="js/bootstrap.min.js"></script>
+    <script src="/js/bootstrap.min.js"></script>
     <!-- Single Page Nav -->
-    <script src="js/jquery.singlePageNav.min.js"></script>
+    <script src="/js/jquery.singlePageNav.min.js"></script>
     <!-- jquery.fancybox.pack -->
-    <script src="js/jquery.fancybox.pack.js"></script>
+    <script src="/js/jquery.fancybox.pack.js"></script>
     <!-- Google Map API -->
     <script src="http://maps.google.com/maps/api/js?sensor=false"></script>
     <!-- Owl Carousel -->
-    <script src="js/owl.carousel.min.js"></script>
+    <script src="/js/owl.carousel.min.js"></script>
     <!-- jquery easing -->
-    <script src="js/isotope.pkgd.min.js"></script>
-    <script src="js/jquery.easing.min.js"></script>
+    <script src="/js/isotope.pkgd.min.js"></script>
+    <script src="/js/jquery.easing.min.js"></script>
     <!-- Fullscreen slider -->
-    <script src="js/jquery.slitslider.js"></script>
-    <script src="js/jquery.ba-cond.min.js"></script>
+    <script src="/js/jquery.slitslider.js"></script>
+    <script src="/js/jquery.ba-cond.min.js"></script>
     <!-- onscroll animation -->
-    <script src="js/wow.min.js"></script>
+    <script src="/js/wow.min.js"></script>
     <!-- Custom Functions -->
-    <script src="js/jquery.form.min.js"></script>
-    <script src="js/jquery.validate.min.js"></script>
-    <script src="js/main.js"></script>
+    <script src="/js/jquery.form.min.js"></script>
+    <script src="/js/jquery.validate.min.js"></script>
+    <script src="/js/main.js"></script>
 </body>
 </html>

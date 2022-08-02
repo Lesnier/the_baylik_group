@@ -50,7 +50,7 @@
         <!-- Modernizer Script for old Browsers -->
         <script src="/js/modernizr-2.6.2.min.js"></script>
 
-        <link rel="stylesheet" href="{{mix('css/app.css')}}">
+        <link rel="stylesheet" href="{{mix('/css/app.css')}}">
 
     </head>
 
@@ -240,7 +240,7 @@
                         </div>
                         <div class="col-md-8 col-md-offset-2 text-center">
                             <div class="block">
-                                <img style="max-width:50%" src="img/prototype.jpg" alt="" class="">
+                                <img style="max-width:50%" src="/img/prototype.jpg" alt="" class="">
                                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate magni, delectus
                                     nam qui deserunt perspiciatis, voluptates ratione. Atque voluptate qui dolor veniam
                                     voluptatibus, itaque odit, ullam ipsam exercitationem et ex.</p>
@@ -408,29 +408,29 @@
         <!-- Essential jQuery Plugins
         ================================================== -->
         <!-- Main jQuery -->
-        <script src="js/jquery-1.11.1.min.js"></script>
+        <script src="/js/jquery-1.11.1.min.js"></script>
         <!-- Twitter Bootstrap -->
-        <script src="js/bootstrap.min.js"></script>
+        <script src="/js/bootstrap.min.js"></script>
         <!-- Single Page Nav -->
-        <script src="js/jquery.singlePageNav.min.js"></script>
+        <script src="/js/jquery.singlePageNav.min.js"></script>
         <!-- jquery.fancybox.pack -->
-        <script src="js/jquery.fancybox.pack.js"></script>
+        <script src="/js/jquery.fancybox.pack.js"></script>
         <!-- Google Map API -->
         <script src="http://maps.google.com/maps/api/js?sensor=false"></script>
         <!-- Owl Carousel -->
-        <script src="js/owl.carousel.min.js"></script>
+        <script src="/js/owl.carousel.min.js"></script>
         <!-- jquery easing -->
-        <script src="js/isotope.pkgd.min.js"></script>
-        <script src="js/jquery.easing.min.js"></script>
+        <script src="/js/isotope.pkgd.min.js"></script>
+        <script src="/js/jquery.easing.min.js"></script>
         <!-- Fullscreen slider -->
-        <script src="js/jquery.slitslider.js"></script>
-        <script src="js/jquery.ba-cond.min.js"></script>
+        <script src="/js/jquery.slitslider.js"></script>
+        <script src="/js/jquery.ba-cond.min.js"></script>
         <!-- onscroll animation -->
-        <script src="js/wow.min.js"></script>
+        <script src="/js/wow.min.js"></script>
         <!-- Custom Functions -->
-        <script src="js/jquery.form.min.js"></script>
-        <script src="js/jquery.validate.min.js"></script>
-        <script src="js/main.js"></script>
+        <script src="/js/jquery.form.min.js"></script>
+        <script src="/js/jquery.validate.min.js"></script>
+        <script src="/js/main.js"></script>
         <script>
             $(function () {
                 $("#contact-form").validate({
@@ -495,6 +495,6 @@
             });
         </script>
 
-        <script src="{{mix('js/app.js')}}"></script>
+        <script src="{{mix('/js/app.js')}}"></script>
     </body>
 </html>
