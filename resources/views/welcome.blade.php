@@ -31,26 +31,26 @@
         <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:400,300,700">
 
         <!-- Fontawesome Icon font -->
-        <link rel="stylesheet" href="/css/font-awesome.min.css">
+        <link rel="stylesheet" href="{{asset('css/font-awesome.min.css')}}">
         <!-- Ion Icons Font -->
-        <link rel="stylesheet" href="/css/ionicons.min.css">
+        <link rel="stylesheet" href="{{asset('css/ionicons.min.css')}}">
         <!-- bootstrap.min -->
-        <link rel="stylesheet" href="/css/jquery.fancybox.css">
+        <link rel="stylesheet" href="{{asset('css/jquery.fancybox.css')}}">
         <!-- bootstrap.min -->
-        <link rel="stylesheet" href="/css/bootstrap.min.css">
+        <link rel="stylesheet" href="{{asset('css/bootstrap.min.css')}}">
         <!-- bootstrap.min -->
-        <link rel="stylesheet" href="/css/owl.carousel.css">
+        <link rel="stylesheet" href="{{asset('css/owl.carousel.css')}}">
         <!-- bootstrap.min -->
-        <link rel="stylesheet" href="/css/slit-slider.css">
+        <link rel="stylesheet" href="{{asset('css/slit-slider.css')}}">
         <!-- bootstrap.min -->
-        <link rel="stylesheet" href="/css/animate.css">
+        <link rel="stylesheet" href="{{asset('css/animate.css')}}">
         <!-- Main Stylesheet -->
-        <link rel="stylesheet" href="/css/main.css">
+        <link rel="stylesheet" href="{{asset('css/main.css')}}">
 
         <!-- Modernizer Script for old Browsers -->
-        <script src="/js/modernizr-2.6.2.min.js"></script>
+        <script src="{{asset('/js/modernizr-2.6.2.min.js')}}"></script>
 
-        <link rel="stylesheet" href="{{mix('/css/app.css')}}">
+        <link rel="stylesheet" href="{{asset(mix('css/app.css'))}}">
 
     </head>
 
@@ -91,9 +91,9 @@
                 <!-- main nav -->
                 <nav class="collapse navbar-collapse navbar-right" role="navigation">
                     <ul id="nav" class="nav navbar-nav menu">
-                        <li><a href="#what"><span>What</span></a></li>
-                        <li><a href="#why"><span>Why</span></a></li>
-                        <li><a href="#portfolio"><span>Seller/Buyer</span></a></li>
+                        <li><a href="{{url('#what')}}"><span>What</span></a></li>
+                        <li><a href="{{url('#why')}}"><span>Why</span></a></li>
+                        <li><a href="{{url('#portfolio')}}"><span>Seller/Buyer</span></a></li>
                     </ul>
                     <ul class="nav navbar-nav menu">
                         @if (\Illuminate\Support\Facades\Route::has('login'))
@@ -495,6 +495,6 @@
             });
         </script>
 
-        <script src="{{mix('/js/app.js')}}"></script>
+        <script src="{{asset(mix('/js/app.js'))}}"></script>
     </body>
 </html>
