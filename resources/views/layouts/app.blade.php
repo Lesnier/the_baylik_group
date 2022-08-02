@@ -61,7 +61,7 @@
                     <!-- logo -->
                     <h1 class="navbar-brand">
                         <a href="/">
-                            <img width="200px" src="/img/logo_white.png" alt="">
+                            <img width="200px" src="{{asset('/img/logo_white.png')}}" alt="">
                         </a>
                     </h1>
                     <!-- /logo -->

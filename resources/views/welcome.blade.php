@@ -82,7 +82,7 @@
                     <!-- logo -->
                     <h1 class="navbar-brand">
                         <a href="/">
-                            <img width="200px" src="/img/logo_white.png" alt="">
+                            <img width="200px" src="{{asset('/img/logo_white.png')}}" alt="">
                         </a>
                     </h1>
                     <!-- /logo -->
@@ -223,7 +223,7 @@
 
                         </div>
                         <div class="col-md-8">
-                            <img class="img-responsive" src="/img/features.jpg" alt="">
+                            <img class="img-responsive" src="{{asset('/img/features.jpg')}}" alt="">
                         </div>
                     </div>
                 </div>
@@ -240,7 +240,7 @@
                         </div>
                         <div class="col-md-8 col-md-offset-2 text-center">
                             <div class="block">
-                                <img style="max-width:50%" src="/img/prototype.jpg" alt="" class="">
+                                <img style="max-width:50%" src="{{asset('/img/prototype.jpg')}}" alt="" class="">
                                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate magni, delectus
                                     nam qui deserunt perspiciatis, voluptates ratione. Atque voluptate qui dolor veniam
                                     voluptatibus, itaque odit, ullam ipsam exercitationem et ex.</p>
@@ -361,7 +361,7 @@
                     <div class="col-md-4">
                         <h4>
                             <a href="">
-                                <img src="/img/logo_white.png" alt="">
+                                <img src="{{asset('/img/logo_white.png')}}" alt="">
                             </a>
                         </h4>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias ullam numquam repudiandae
@@ -408,29 +408,29 @@
         <!-- Essential jQuery Plugins
         ================================================== -->
         <!-- Main jQuery -->
-        <script src="/js/jquery-1.11.1.min.js"></script>
+        <script src="{{asset('/js/jquery-1.11.1.min.js')}}"></script>
         <!-- Twitter Bootstrap -->
-        <script src="/js/bootstrap.min.js"></script>
+        <script src="{{asset('/js/bootstrap.min.js')}}"></script>
         <!-- Single Page Nav -->
-        <script src="/js/jquery.singlePageNav.min.js"></script>
+        <script src="{{asset('/js/jquery.singlePageNav.min.js')}}"></script>
         <!-- jquery.fancybox.pack -->
-        <script src="/js/jquery.fancybox.pack.js"></script>
+        <script src="{{asset('/js/jquery.fancybox.pack.js')}}"></script>
         <!-- Google Map API -->
         <script src="http://maps.google.com/maps/api/js?sensor=false"></script>
         <!-- Owl Carousel -->
-        <script src="/js/owl.carousel.min.js"></script>
+        <script src="{{asset('/js/owl.carousel.min.js')}}"></script>
         <!-- jquery easing -->
-        <script src="/js/isotope.pkgd.min.js"></script>
-        <script src="/js/jquery.easing.min.js"></script>
+        <script src="{{asset('/js/isotope.pkgd.min.js')}}"></script>
+        <script src="{{asset('/js/jquery.easing.min.js')}}"></script>
         <!-- Fullscreen slider -->
-        <script src="/js/jquery.slitslider.js"></script>
-        <script src="/js/jquery.ba-cond.min.js"></script>
+        <script src="{{asset('/js/jquery.slitslider.js')}}"></script>
+        <script src="{{asset('/js/jquery.ba-cond.min.js')}}"></script>
         <!-- onscroll animation -->
-        <script src="/js/wow.min.js"></script>
+        <script src="{{asset('/js/wow.min.js')}}"></script>
         <!-- Custom Functions -->
-        <script src="/js/jquery.form.min.js"></script>
-        <script src="/js/jquery.validate.min.js"></script>
-        <script src="/js/main.js"></script>
+        <script src="{{asset('/js/jquery.form.min.js')}}"></script>
+        <script src="{{asset('/js/jquery.validate.min.js')}}"></script>
+        <script src="{{asset('/js/main.js')}}"></script>
         <script>
             $(function () {
                 $("#contact-form").validate({
