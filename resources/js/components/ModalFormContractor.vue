@@ -67,7 +67,7 @@
         },
         methods: {
             save() {
-                axios.post('/save_contractor', this.form).then(response => {
+                axios.post('public/save_contractor', this.form).then(response => {
                     swal({
                         title: "Good job!",
                         text: response.data.message,

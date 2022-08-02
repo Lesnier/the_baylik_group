@@ -5303,7 +5303,7 @@ __webpack_require__.r(__webpack_exports__);
     saveSeller: function saveSeller() {
       var _this = this;
 
-      axios.post('/save_buyer', this.form).then(function (response) {
+      axios.post('public/save_buyer', this.form).then(function (response) {
         swal({
           title: "Good job!",
           text: response.data.message,
@@ -5376,7 +5376,7 @@ __webpack_require__.r(__webpack_exports__);
     save: function save() {
       var _this = this;
 
-      axios.post('/save_contractor', this.form).then(function (response) {
+      axios.post('public/save_contractor', this.form).then(function (response) {
         swal({
           title: "Good job!",
           text: response.data.message,
@@ -5450,7 +5450,7 @@ __webpack_require__.r(__webpack_exports__);
     saveSeller: function saveSeller() {
       var _this = this;
 
-      axios.post('/save_seller', this.form).then(function (response) {
+      axios.post('public/save_seller', this.form).then(function (response) {
         swal({
           title: "Good job!",
           text: response.data.message,

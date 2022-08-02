@@ -68,7 +68,7 @@
         },
         methods: {
             saveSeller() {
-                axios.post('/save_buyer', this.form).then(response => {
+                axios.post('public/save_buyer', this.form).then(response => {
                     swal({
                         title: "Good job!",
                         text: response.data.message,
