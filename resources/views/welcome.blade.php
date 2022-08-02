@@ -140,7 +140,8 @@
                                     </h2>
                                     <p class="animated fadeInDown">You are always one decision away from a completely
                                         different life.</p>
-                                    <a href="#" class="btn btn-blue btn-effect">Join US</a>
+                                    <button class="btn btn-blue btn-effect" data-toggle="modal"
+                                       data-target="#be-contractor">Join as Contractor</button>
                                 </div>
                             </div>
 
@@ -152,10 +153,11 @@
                             <div class="bg-img slider-2"></div>
                             <div class="slide-caption">
                                 <div class="caption-content">
-                                    <h2 class="animated fadeInDown"> Welcome Sellers!</h2>
+                                    <h2 class="animated fadeInDown">Welcome Sellers!</h2>
                                     <p class="animated fadeInDown">Don't look for customers for your products, look for
                                         products for your customers</p>
-                                    <a href="#" class="btn btn-blue btn-effect">Join US</a>
+                                    <button  class="btn btn-blue btn-effect" data-toggle="modal"
+                                       data-target="#be-seller">Join as Seller</button>
                                 </div>
                             </div>
 
@@ -171,7 +173,8 @@
                                     <p class="animated fadeInDown">
                                         Make your life a dream, and your dream a reality.
                                     </p>
-                                    <a href="#" class="btn btn-blue btn-effect">Join US</a>
+                                    <a href="#" class="btn btn-blue btn-effect" data-toggle="modal"
+                                       data-target="#be-buyer">Join as Buyer</a>
                                 </div>
                             </div>
 

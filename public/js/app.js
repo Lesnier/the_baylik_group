@@ -5758,7 +5758,7 @@ var staticRenderFns = [function () {
     }
   }, [_vm._v("×")])]), _vm._v(" "), _c("h4", {
     staticClass: "modal-title"
-  }, [_vm._v("Join Contractor")])]);
+  }, [_vm._v("Join Buyer")])]);
 }];
 render._withStripped = true;
 
@@ -6220,7 +6220,7 @@ var staticRenderFns = [function () {
     }
   }, [_vm._v("×")])]), _vm._v(" "), _c("h4", {
     staticClass: "modal-title"
-  }, [_vm._v("Join Contractor")])]);
+  }, [_vm._v("Join Seller")])]);
 }];
 render._withStripped = true;
 
