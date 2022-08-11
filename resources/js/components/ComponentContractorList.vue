@@ -47,7 +47,7 @@
             }
         },
         methods: {
-            getContractorList(url = '/contractors-list') {
+            getContractorList(url = '/public/contractors-list') {
                 if (url != null) {
                     this.isLoading = true;
                     axios.get(url).then(response => {

@@ -5279,7 +5279,7 @@ __webpack_require__.r(__webpack_exports__);
     getBuyerList: function getBuyerList() {
       var _this = this;
 
-      var url = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : 'public/buyers-list';
+      var url = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : '/public/buyers-list';
 
       if (url != null) {
         this.isLoading = true;
@@ -5324,7 +5324,7 @@ __webpack_require__.r(__webpack_exports__);
     getContractorList: function getContractorList() {
       var _this = this;
 
-      var url = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : '/contractors-list';
+      var url = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : '/public/contractors-list';
 
       if (url != null) {
         this.isLoading = true;
@@ -5400,7 +5400,7 @@ __webpack_require__.r(__webpack_exports__);
     getSellerList: function getSellerList() {
       var _this = this;
 
-      var url = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : '/sellers-list';
+      var url = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : '/public/sellers-list';
 
       if (url != null) {
         this.isLoading = true;

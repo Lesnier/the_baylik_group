@@ -47,7 +47,7 @@
             }
         },
         methods: {
-            getSellerList(url = '/sellers-list') {
+            getSellerList(url = '/public/sellers-list') {
                 if (url != null) {
                     this.isLoading = true;
                     axios.get(url).then(response => {
