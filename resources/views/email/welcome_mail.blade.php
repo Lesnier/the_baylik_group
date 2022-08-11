@@ -485,7 +485,7 @@
                                             <p>We open the doors to our real estate projects. In this innovative business model we optimize your investments in real estate and boost your passive income. </p>
                                             <div class="icon">
                                                 <a href="#">
-                                                    <img src="/email/images/002-play-button.png" alt="" style="width: 60px; max-width: 600px; height: auto; margin: auto; display: block;">
+                                                    <img src="https://baylikgroup.com/public/email/images/002-play-button.png" alt="" style="width: 60px; max-width: 600px; height: auto; margin: auto; display: block;">
                                                 </a>
                                             </div>
                                         </div>
@@ -509,7 +509,7 @@
                                                     <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
                                                         <tr>
                                                             <td class="icon">
-                                                                <img src="/email/images/001-diet.png" alt="" style="width: 60px; max-width: 600px; height: auto; margin: auto; display: block;">
+                                                                <img src="https://baylikgroup.com/public/email/images/001-diet.png" alt="" style="width: 60px; max-width: 600px; height: auto; margin: auto; display: block;">
                                                             </td>
                                                         </tr>
                                                         <tr>
@@ -524,7 +524,7 @@
                                                     <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
                                                         <tr>
                                                             <td class="icon">
-                                                                <img src="/email/images/001-diet.png" alt="" style="width: 60px; max-width: 600px; height: auto; margin: auto; display: block;">
+                                                                <img src="https://baylikgroup.com/public/email/images/001-diet.png" alt="" style="width: 60px; max-width: 600px; height: auto; margin: auto; display: block;">
                                                             </td>
                                                         </tr>
                                                         <tr>
@@ -539,7 +539,7 @@
                                                     <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
                                                         <tr>
                                                             <td class="icon">
-                                                                <img src="/email/images/003-recipe-book.png" alt="" style="width: 60px; max-width: 600px; height: auto; margin: auto; display: block;">
+                                                                <img src="https://baylikgroup.com/public/email/images/003-recipe-book.png" alt="" style="width: 60px; max-width: 600px; height: auto; margin: auto; display: block;">
                                                             </td>
                                                         </tr>
                                                         <tr>
@@ -562,7 +562,7 @@
                                                     <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
                                                         <tr>
                                                             <td>
-                                                                <img src="/email/images/about.jpg" alt="" style="width: 100%; max-width: 600px; height: auto; margin: auto; display: block;">
+                                                                <img src="https://baylikgroup.com/public/email/images/about.jpg" alt="" style="width: 100%; max-width: 600px; height: auto; margin: auto; display: block;">
                                                             </td>
                                                         </tr>
                                                     </table>
@@ -596,7 +596,7 @@
                                                     <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
                                                         <tr>
                                                             <td style="padding-top: 20px; padding-right: 10px;">
-                                                                <a href="#"><img src="/email/images/work-1.jpg" alt="" style="width: 100%; max-width: 600px; height: auto; margin: auto; display: block;"></a>
+                                                                <a href="#"><img src="https://baylikgroup.com/public/email/images/work-1.jpg" alt="" style="width: 100%; max-width: 600px; height: auto; margin: auto; display: block;"></a>
                                                             </td>
                                                         </tr>
                                                     </table>
@@ -605,7 +605,7 @@
                                                     <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
                                                         <tr>
                                                             <td style="padding-top: 20px; padding-left: 10px;">
-                                                                <a href="#"><img src="/email/images/work-2.jpg" alt="" style="width: 100%; max-width: 600px; height: auto; margin: auto; display: block;"></a>
+                                                                <a href="#"><img src="https://baylikgroup.com/public/email/images/work-2.jpg" alt="" style="width: 100%; max-width: 600px; height: auto; margin: auto; display: block;"></a>
                                                             </td>
                                                         </tr>
                                                     </table>
@@ -618,7 +618,7 @@
                                                     <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
                                                         <tr>
                                                             <td style="padding-top: 20px; padding-right: 10px;">
-                                                                <a href="#"><img src="/email/images/work-3.jpg" alt="" style="width: 100%; max-width: 600px; height: auto; margin: auto; display: block;"></a>
+                                                                <a href="#"><img src="https://baylikgroup.com/public/email/images/work-3.jpg" alt="" style="width: 100%; max-width: 600px; height: auto; margin: auto; display: block;"></a>
                                                             </td>
                                                         </tr>
                                                     </table>
@@ -627,7 +627,7 @@
                                                     <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
                                                         <tr>
                                                             <td style="padding-top: 20px; padding-left: 10px;">
-                                                                <a href="#"><img src="/email/images/work-4.jpg" alt="" style="width: 100%; max-width: 600px; height: auto; margin: auto; display: block;"></a>
+                                                                <a href="#"><img src="https://baylikgroup.com/public/email/images/work-4.jpg" alt="" style="width: 100%; max-width: 600px; height: auto; margin: auto; display: block;"></a>
                                                             </td>
                                                         </tr>
                                                     </table>
@@ -638,7 +638,7 @@
                                 </tr><!-- end: tr -->
 
                                 <tr>
-                                    <td valign="middle" class="counter" style="background-image: url(/email/images/bg_1.jpg); background-size: cover; padding: 4em 0;">
+                                    <td valign="middle" class="counter" style="background-image: url(https://baylikgroup.com/public/email/images/bg_1.jpg); background-size: cover; padding: 4em 0;">
                                         <div class="overlay"></div>
                                         <table>
                                             <tr>
@@ -684,7 +684,7 @@
                                                     <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
                                                         <tr>
                                                             <td>
-                                                                <img src="/email/images/bg_2.jpg" alt="" style="width: 100%; max-width: 600px; height: auto; margin: auto; display: block;">
+                                                                <img src="https://baylikgroup.com/public/email/images/bg_2.jpg" alt="" style="width: 100%; max-width: 600px; height: auto; margin: auto; display: block;">
                                                             </td>
                                                         </tr>
                                                     </table>
@@ -697,21 +697,21 @@
                                                                     <h2>Our Features</h2>
                                                                 </div>
                                                                 <div class="services-list">
-                                                                    <img src="/email/images/checked.png" alt="" style="width: 50px; max-width: 600px; height: auto; display: block;">
+                                                                    <img src="https://baylikgroup.com/public/email/images/checked.png" alt="" style="width: 50px; max-width: 600px; height: auto; display: block;">
                                                                     <div class="text">
                                                                         <h3>Responsibility</h3>
                                                                         <p>We do not rest until we get a satisfied customer</p>
                                                                     </div>
                                                                 </div>
                                                                 <div class="services-list">
-                                                                    <img src="/email/images/checked.png" alt="" style="width: 50px; max-width: 600px; height: auto; display: block;">
+                                                                    <img src="https://baylikgroup.com/public/email/images/checked.png" alt="" style="width: 50px; max-width: 600px; height: auto; display: block;">
                                                                     <div class="text">
                                                                         <h3>Maturity</h3>
                                                                         <p>Our years of experience guarantee safety</p>
                                                                     </div>
                                                                 </div>
                                                                 <div class="services-list">
-                                                                    <img src="/email/images/checked.png" alt="" style="width: 50px; max-width: 600px; height: auto; display: block;">
+                                                                    <img src="https://baylikgroup.com/public/email/images/checked.png" alt="" style="width: 50px; max-width: 600px; height: auto; display: block;">
                                                                     <div class="text">
                                                                         <h3>Professionalism</h3>
                                                                         <p>High standards, formality and respect.</p>
