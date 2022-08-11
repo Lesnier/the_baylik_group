@@ -21,8 +21,6 @@ Auth::routes();
 
 Route::get('/home/{any?}', [App\Http\Controllers\HomeController::class, 'index'])->name('home')->where('any', '.*');
 
-Route::get('/admin', [App\Http\Controllers\Auth\LoginController::class, 'showLoginForm'])->name('aAdmin_login');
-
 
 Route::post('/save_contractor', [App\Http\Controllers\StakeholderController::class, 'saveContractor'])->name('save_contractor');
 Route::post('/save_seller', [App\Http\Controllers\StakeholderController::class, 'saveSeller'])->name('save_seller');
@@ -32,3 +30,9 @@ Route::post('/save_buyer', [App\Http\Controllers\StakeholderController::class, '
 Route::get('/contractors-list', [App\Http\Controllers\StakeholderController::class, 'getContractorList'])->name('contractors_list');
 Route::get('/sellers-list', [App\Http\Controllers\StakeholderController::class, 'getSellersList'])->name('sellers_list');
 Route::get('/buyers-list', [App\Http\Controllers\StakeholderController::class, 'getBuyerList'])->name('buyers_list');
+
+
+//----------------
+Route::get('/my-email',function(){
+  return view('email.welcome_mail');
+});
