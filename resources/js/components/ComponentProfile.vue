@@ -26,22 +26,9 @@
         data() {
             return {
                 currenUser: {},
-                isLoading: false
             }
         },
         methods: {
-            getContractorList(url = '/public/contractors-list') {
-                if (url != null) {
-                    this.isLoading = true;
-                    axios.get(url).then(response => {
-                        console.log(response);
-                        this.allPagination = response.data.list;
-                        this.contractorList = response.data.list.data;
-                        this.linksPaginations = response.data.list.links;
-                        this.isLoading = false;
-                    });
-                }
-            }
         },
         created() {
             // this.currenUser = this.$router.query.user

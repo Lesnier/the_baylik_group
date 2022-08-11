@@ -5324,7 +5324,7 @@ __webpack_require__.r(__webpack_exports__);
     getContractorList: function getContractorList() {
       var _this = this;
 
-      var url = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : '/public/contractors-list';
+      var url = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : '/contractors-list';
 
       if (url != null) {
         this.isLoading = true;
@@ -5364,28 +5364,10 @@ __webpack_require__.r(__webpack_exports__);
   },
   data: function data() {
     return {
-      currenUser: {},
-      isLoading: false
+      currenUser: {}
     };
   },
-  methods: {
-    getContractorList: function getContractorList() {
-      var _this = this;
-
-      var url = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : '/public/contractors-list';
-
-      if (url != null) {
-        this.isLoading = true;
-        axios.get(url).then(function (response) {
-          console.log(response);
-          _this.allPagination = response.data.list;
-          _this.contractorList = response.data.list.data;
-          _this.linksPaginations = response.data.list.links;
-          _this.isLoading = false;
-        });
-      }
-    }
-  },
+  methods: {},
   created: function created() {
     // this.currenUser = this.$router.query.user
     console.log(this.user);
@@ -5418,7 +5400,7 @@ __webpack_require__.r(__webpack_exports__);
     getSellerList: function getSellerList() {
       var _this = this;
 
-      var url = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : '/public/sellers-list';
+      var url = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : '/sellers-list';
 
       if (url != null) {
         this.isLoading = true;
