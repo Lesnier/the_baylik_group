@@ -27,6 +27,7 @@
     },
     "dependencies": {
         "browsersync": "^0.0.1-security",
-        "sweetalert": "^2.1.2"
+        "sweetalert": "^2.1.2",
+        "vue-router": "^3.0.7"
     }
 }

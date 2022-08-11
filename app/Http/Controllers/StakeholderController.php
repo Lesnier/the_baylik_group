@@ -40,7 +40,7 @@ class StakeholderController extends Controller
 
             $contractor = Contractor::create([
                 'licencia' => $validated['lic'],
-                'user_id' => $user->id
+                'users_id' => $user->id
             ]);
 
             return response()->json(['message' => 'Successfully Registered Contractor!'], 200);
@@ -75,7 +75,7 @@ class StakeholderController extends Controller
             $contractor = Seller::create([
                 'address' => $request->input('address'),
                 'links' => $request->input('links'),
-                'user_id' => $user->id
+                'users_id' => $user->id
             ]);
 
 
@@ -110,13 +110,57 @@ class StakeholderController extends Controller
 
             $buyer = Buyer::create([
                 'punto_precio' => $request->input('punto_precio'),
-                'user_id' => $user->id
+                'users_id' => $user->id
             ]);
 
             return response()->json(['message' => 'Successfully Registered Buyer!'], 200);
         } catch (\Exception $exception) {
             return response()->json(['message' => $exception->getMessage()], 500);
         }
+
+    }
+
+    public function getContractorList()
+    {
+        try {
+            $list = Contractor::with('user')->paginate(15);
+            for ($i = 0; $i < count($list); $i++) {
+                $list[$i]->infoUser = $list[$i]->user;
+            }
+
+            return response()->json(['message' => 'List obtained successfully!', 'list' => $list], 200);
+        } catch (\Exception $exception) {
+            return response()->json(['message' => $exception->getMessage()], 500);
+        }
+    }
+
+    public function getSellersList()
+    {
+        try {
+            $list = Seller::with('user')->paginate(15);
+            for ($i = 0; $i < count($list); $i++) {
+                $list[$i]->infoUser = $list[$i]->user;
+            }
+            return response()->json(['message' => 'List obtained successfully!', 'list' => $list], 200);
+        } catch (\Exception $exception) {
+            return response()->json(['message' => $exception->getMessage()], 500);
+        }
+    }
+
+    public function getBuyerList()
+    {
+        try {
+            $list = Buyer::with('user')->paginate(15);
+            for ($i = 0; $i < count($list); $i++) {
+                $list[$i]->infoUser = $list[$i]->user;
+            }
+            return response()->json(['message' => 'List obtained successfully!', 'list' => $list], 200);
+        } catch (\Exception $exception) {
+            return response()->json(['message' => $exception->getMessage()], 500);
+        }
+    }
+
+    public function getUserProfile(){
 
     }
 }

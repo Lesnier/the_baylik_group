@@ -1,2 +1,157 @@
+body {
+    background-color: #fff;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 24px;
+    font-size: 16px;
+    color: #3c3c3c;
+}
+
+
+.section-title h2:after {
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    height: 2px;
+    width: 72px;
+    margin-left: -36px;
+    content: "";
+}
+
+.service-item p {
+    color: #3c3c3c;
+    font-size: 16px;
+}
+
+.auth-box {
+    margin-top: 70px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.list-group-item.active, .list-group-item.active:hover, .list-group-item.active:focus {
+    z-index: 2;
+    color: #fff;
+    background-color: #f57828;
+    border-color: #f57828;
+}
+
+.list-group.dashboard-menu {
+    display: block;
+}
+
+.form-group.dashboard-menu {
+    display: none;
+}
+
+.info-profile{
+    margin-top: 20px;
+}
+
+
+.pagination>.active>a {
+    z-index: 2;
+    color: #fff;
+    cursor: default;
+    background-color: #232323;
+    border-color: #232323FF;
+}
+
+.pagination>.active>a:focus {
+    z-index: 2;
+    color: #fff;
+    cursor: default;
+    background-color: #232323;
+    border-color: #232323FF;
+}
+
+
+
+.pagination>.active>a:hover {
+    z-index: 2;
+    color: #fff;
+    cursor: default;
+    background-color: #2f2f2f;
+    border-color: #2F2F2FFF;
+}
+
+.pagination>li>a{
+    color: #232323FF;
+}
+
+.loading {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#auth.nav.navbar-nav.menu{
+    margin-top: 5px;
+    padding-left: 15px;
+
+}
+
+#auth .login-button{
+    margin-right: 15px;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #ff6700;
+    border-color: #ff6700;
+}
+
+.btn-primary:hover {
+    color: #fff;
+    background-color: #f57925;
+    border-color: #f57925;
+}
+
+.btn-primary:focus {
+    color: #fff;
+    background-color: #f57925;
+    border-color: #f57925;
+}
+
+.panel-default>.panel-heading {
+    color: #f5f5f5;
+    background-color: #2d2d2d;
+    border-color: #2d2d2d;
+}
+
+.panel-heading {
+    padding: 10px 15px;
+    border-bottom: 1px solid transparent;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+}
+
+@media (max-width: 992px) {
+
+    .about-us {
+        text-align: center;
+    }
+
+    .section-title {
+        margin-bottom: 40px;
+    }
+
+    .auth-box {
+        margin-top: 70px;
+        display: block;
+    }
+
+    .list-group.dashboard-menu {
+        display: none;
+    }
+
+    .form-group.dashboard-menu {
+        display: block;
+    }
+
+    #auth .login-button{
+        margin-bottom: 15px;
+    }
+}
 
 

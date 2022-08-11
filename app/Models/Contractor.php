@@ -11,10 +11,15 @@ class Contractor extends Model
 
     protected $table = "contractor";
 
-    protected $fillable = ["user_id", "licencia"];
+    protected $fillable = ["users_id", "licencia"];
 
-    public function user(){
-        return $this->hasOne(User::class,'id',"user_id");
+    protected $hidden = ["user"];
+
+    public function user()
+    {
+        return $this->hasOne(User::class,'id', 'users_id');
     }
+
+
 
 }

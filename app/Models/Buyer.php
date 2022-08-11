@@ -11,10 +11,11 @@ class Buyer extends Model
 
     protected $table = "buyer";
 
-    protected $fillable = ["user_id","punto_precio"];
+    protected $fillable = ["users_id","punto_precio"];
 
-    public function user(){
-        return $this->hasOne(User::class,'id',"user_id");
+    public function user()
+    {
+        return $this->hasOne(User::class,'id', 'users_id');
     }
 
 }

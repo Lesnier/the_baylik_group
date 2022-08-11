@@ -33,11 +33,11 @@
                                 <textarea v-model="form.address" type="text" name="address" id="address" class="form-control"
                                           placeholder="Your Property Address..."></textarea>
                             </div>
-                            <div class="input-field">
-                                <label for="links">Links Separated By Commas(Images, SocialNework, Portfolios, etc)</label>
-                                <input v-model="form.links" type="text" name="links" id="links" class="form-control"
-                                       placeholder="Your Links...">
-                            </div>
+<!--                            <div class="input-field">-->
+<!--                                <label for="links">Links Separated By Commas(Images, SocialNework, Portfolios, etc)</label>-->
+<!--                                <input v-model="form.links" type="text" name="links" id="links" class="form-control"-->
+<!--                                       placeholder="Your Links...">-->
+<!--                            </div>-->
 
                         </div>
                     </div>

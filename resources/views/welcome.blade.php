@@ -12,12 +12,12 @@
         <meta charset="utf-8">
         <!-- Always force latest IE rendering engine or request Chrome Frame -->
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title>Blue Pro</title>
+        <title>The Baylik Group</title>
         <!-- Meta Description -->
-        <meta name="description" content="Blue One Page Creative HTML5 Template">
+        <meta name="description"
+              content="The Baylik Group is the leading platform in Florida for the formation, development and growth of investor in Real Estate.">
         <meta name="keywords"
-              content="one page, single page, onepage, responsive, parallax, creative, business, html5, css3, css3 animation">
-        <meta name="author" content="Themefisher">
+              content="contractor, seller, buyer, realestate, building">
 
         <!-- Mobile Specific Meta -->
         <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -55,13 +55,13 @@
     </head>
 
     <body id="body">
-
         <!-- preloader -->
-        <!-- <div id="preloader">
-            <div class="loder-box">
-                <div class="battery"></div>
+        <div id="preloader">
+            <div  style="height: 100%; display: flex; justify-content: center; align-items: center">
+                <img width="150px" src="{{asset('/img/logo_baylik_group_black.png')}}" alt="The Baylik Group">
+
             </div>
-        </div> -->
+        </div>
         <!-- end preloader -->
 
         <!--
@@ -93,19 +93,36 @@
                     <ul id="nav" class="nav navbar-nav menu">
                         <li><a href="{{url('#what')}}"><span>What</span></a></li>
                         <li><a href="{{url('#why')}}"><span>Why</span></a></li>
-                        <li><a href="{{url('#portfolio')}}"><span>Seller/Buyer</span></a></li>
+                        <li><a href="{{url('#service')}}"><span>Seller/Buyer</span></a></li>
                     </ul>
-                    <ul class="nav navbar-nav menu">
+                    <ul id="auth" class="nav navbar-nav menu" >
                         @if (\Illuminate\Support\Facades\Route::has('login'))
                             @auth
-                                <li><a href="{{ url('/home') }}"><span>Home</span></a></li>
+                                <li class="dropdown">
+                                    <a style="border: solid 1px #fff; padding: 8px; " href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">{{Auth::user()->name}} <span class="caret"></span></a>
+                                    <ul class="dropdown-menu">
+                                        @if(\Illuminate\Support\Facades\Gate::allows('dashboard-admin'))
+                                            <li>
+                                                <a href="{{route('home')}}"><span>{{'DASHBOARD'}}</span></a>
+                                            </li>
+                                        @endif
+                                        <li>
+                                            <a href="{{route('logout')}}"
+                                               onclick="event.preventDefault(); document.getElementById('frm-logout').submit();"><span>{{'LOGOUT'}}</span></a>
+                                        </li>
+                                    </ul>
+
+                                </li>
+
+                                <form id="frm-logout" method="POST" action="{{route('logout')}}">
+                                    {{ csrf_field() }}
+                                </form>
                             @else
-                                <li><a href="{{ route('login') }}"><span>Log in</span></a></li>
+                                <li class="login-button"><a  style="border: solid 1px #fff; padding: 8px;  " href="{{ route('login') }}"><span>Log in</span></a></li>
                                 @if (\Illuminate\Support\Facades\Route::has('register'))
-                                    <li><a href="{{ route('register') }}"><span>Register</span></a></li>
+                                    <li><a  style="border: solid 1px #fff; padding: 8px; " href="{{ route('register') }}"><span>Register</span></a></li>
                                 @endif
                             @endauth
-
                         @endif
                     </ul>
                 </nav>
@@ -117,7 +134,7 @@
         End Fixed Navigation
         ==================================== -->
 
-        <main id="app" class="site-content" role="main">
+        <main id="app_welcome" class="site-content" role="main">
 
             <!--
             Home Slider
@@ -141,7 +158,8 @@
                                     <p class="animated fadeInDown">You are always one decision away from a completely
                                         different life.</p>
                                     <button class="btn btn-blue btn-effect" data-toggle="modal"
-                                       data-target="#be-contractor">Join as Contractor</button>
+                                            data-target="#be-contractor">Join as Contractor
+                                    </button>
                                 </div>
                             </div>
 
@@ -156,8 +174,9 @@
                                     <h2 class="animated fadeInDown">Welcome Sellers!</h2>
                                     <p class="animated fadeInDown">Don't look for customers for your products, look for
                                         products for your customers</p>
-                                    <button  class="btn btn-blue btn-effect" data-toggle="modal"
-                                       data-target="#be-seller">Join as Seller</button>
+                                    <button class="btn btn-blue btn-effect" data-toggle="modal"
+                                            data-target="#be-seller">Join as Seller
+                                    </button>
                                 </div>
                             </div>
 
@@ -210,16 +229,11 @@
                 <div class="container">
                     <div class="row">
                         <div class="section-title text-center">
-                            <h2>What</h2>
+                            <h2>About Us</h2>
                         </div>
-                        <div class="col-md-4">
-                            <h4>The Perfect Spot</h4>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
-                                ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                                ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-                                reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur
-                                sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
-                                est laborum.</p>
+                        <div class="col-md-4 about-us">
+                            <h4>The best business</h4>
+                            <p>Here at Baylik Group we are positioning our brand to help our agents be one of the most investor focus in the South Florida market. While we provide a traditional list and buy platform with global connections to all of our clients. We also have invested in Real Estate our self and are very familiar with the process of commercial, residential, and leasing investments properties. Setting us up to help you achieve all you Real Estate investment goals.</p>
                             <button class="btn btn-blue btn-effect" style="margin: 15px 0" data-toggle="modal"
                                     data-target="#be-contractor">Be Contractor
                             </button>
@@ -237,16 +251,14 @@
                 <div class="container">
                     <div class="row">
                         <div class="section-title text-center" style="margin-bottom: 40px;">
-                            <h2>Why</h2>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. <br> Accusantium repellendus,
-                                ut saepe, consequatur dolor eum!.</p>
+                            <h2>Our Mission</h2>
+                            <p>Create new real estate business opportunities and bring all investment strata closer
+                                together.</p>
                         </div>
                         <div class="col-md-8 col-md-offset-2 text-center">
                             <div class="block">
                                 <img style="max-width:50%" src="{{asset('/img/prototype.jpg')}}" alt="" class="">
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate magni, delectus
-                                    nam qui deserunt perspiciatis, voluptates ratione. Atque voluptate qui dolor veniam
-                                    voluptatibus, itaque odit, ullam ipsam exercitationem et ex.</p>
+                                <p>The Baylik Group is a pioneering the way that Real Estate agents generate wealth for years to come. Joining our team give you the possibility to become a partner in our future projects. All of this while providing top tier costumer service to our clients and positioning the brand as the most investor friendly brokerage.</p>
 
                             </div>
                         </div>
@@ -270,11 +282,21 @@
                                     <i class="ion-home"></i>
                                 </div>
                                 <h3>Seller</h3>
-                                <p style="text-align: justify; margin-bottom: 10px">When you work with The Baylik Group , you’re working with someone that combines market expertise with entrepreneurial innovation. We will listen to your needs and goals, use data and creativity to optimize your property for potential buyers, and stand beside you for every step of the selling process.</p>
-                                <p style="text-align: justify; margin-bottom: 10px">Here at The Baylik Group we put your listing in front of more potential buyers worldwide than anyone else. We welcome expectations because we hold ourselves to the highest standard. We know that trust is earned through delivering results and that our success is defined by yours.</p>
-                                <p style="text-align: justify; margin-bottom: 10px">If you’re considering selling your home, or just want to get a sense of what your home would get on the market, we would love to meet.</p>
+                                <p style="text-align: justify; margin-bottom: 10px">When you work with The Baylik Group
+                                    , you’re working with someone that combines market expertise with entrepreneurial
+                                    innovation. We will listen to your needs and goals, use data and creativity to
+                                    optimize your property for potential buyers, and stand beside you for every step of
+                                    the selling process.</p>
+                                <p style="text-align: justify; margin-bottom: 10px">Here at The Baylik Group we put your
+                                    listing in front of more potential buyers worldwide than anyone else. We welcome
+                                    expectations because we hold ourselves to the highest standard. We know that trust
+                                    is earned through delivering results and that our success is defined by yours.</p>
+                                <p style="text-align: justify; margin-bottom: 10px">If you’re considering selling your
+                                    home, or just want to get a sense of what your home would get on the market, we
+                                    would love to meet.</p>
                                 <button class="btn btn-blue btn-effect" data-toggle="modal"
-                                   data-target="#be-seller" style="margin: 15px 0">Be Seller</button>
+                                        data-target="#be-seller" style="margin: 15px 0">Be Seller
+                                </button>
                             </div>
                         </div>
 
@@ -284,11 +306,24 @@
                                     <i class="ion-person"></i>
                                 </div>
                                 <h3>Buyer</h3>
-                                <p style="text-align: justify; margin-bottom: 10px">Buying a property or investing in South Florida ? Experience and expertise matter, and they can make a significant difference in making sure that you not only find the right house, but that you also pay the best price.Purchasing a home is one of the most important decisions you’ll make, and the right advice and guidance is paramount.</p>
-                                <p style="text-align: justify; margin-bottom: 10px">At The Baylik Group, we not only have a thorough understanding of the marketplace, we also have access to many properties that are off-market and an awareness of properties that are about to be listed. Most importantly, we are keenly aware of the nuances that determine value and we are discerning as to construction quality, materials, and craftsmanship. We will listen to your needs and find you the perfect home and we will make sure that you make an educated and informed decision. Once you choose a property we will represent your interest vociferously throughout the purchase process, negotiating the best possible purchase price, managing and advocating for you during inspections, escrow, title, and closing.</p>
-                                <p style="text-align: justify; margin-bottom: 10px">Please contact us to set up a meeting.</p>
+                                <p style="text-align: justify; margin-bottom: 10px">Buying a property or investing in
+                                    South Florida?. Experience and expertise matter, and they can make a significant
+                                    difference in making sure that you not only find the right house, but that you also
+                                    pay the best price.
+                                </p>
+                                <p style="text-align: justify; margin-bottom: 10px">At The Baylik Group, we not only
+                                    have a thorough understanding of the marketplace, we also have access to many
+                                    properties that are off-market and an awareness of properties that are about to be
+                                    listed. We will listen to your needs and find you the perfect home and we will make
+                                    sure that you make an educated and informed decision. Once you choose a property we
+                                    will represent your interest vociferously throughout the purchase process,
+                                    negotiating the best possible purchase price.</p>
+                                <p style="text-align: justify; margin-bottom: 10px">Please contact us to set up a
+                                    meeting.</p>
                                 <button data-toggle="modal"
-                                   data-target="#be-buyer" class="btn btn-blue btn-effect" style="margin: 15px 0">Be Buyer</button>
+                                        data-target="#be-buyer" class="btn btn-blue btn-effect" style="margin: 15px 0">
+                                    Be Buyer
+                                </button>
                             </div>
                         </div>
 
@@ -305,8 +340,8 @@
 
                         <div class="section-title text-center">
                             <h2>Contact</h2>
-{{--                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus, <br> sapiente.--}}
-{{--                                Libero ipsam, dolore quibusdam magni.</p>--}}
+                            {{--                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus, <br> sapiente.--}}
+                            {{--                                Libero ipsam, dolore quibusdam magni.</p>--}}
                         </div>
 
                         <div class="col-md-12">
@@ -314,14 +349,15 @@
                                 <h3>Our Address</h3>
 
                                 <div class="col-md-4">
-                                    <p><i class="ion-ios-home-outline"></i>Phoenix Inc.<span>PO Box 345678</span> <span>Little Lonsdale St, Melbourne </span><span>Australia</span>
+                                    <p><i class="ion-ios-home-outline"></i>8570 Stirling Rd STE 102-314 , <span>Hollywood,</span>
+                                        <span>FL 33024</span>
                                     </p>
                                 </div>
                                 <div class="col-md-4">
-                                    <p><i class="ion-ios-telephone-outline"></i>Phone: (415) 124-5678 </p>
+                                    <p><i class="ion-ios-telephone-outline"></i>Phone: 7862824657 </p>
                                 </div>
                                 <div class="col-md-4">
-                                    <p><i class="ion-ios-email-outline"></i>website@yourname.com</p>
+                                    <p><i class="ion-ios-email-outline"></i>info@thebaylikgroup.com</p>
                                 </div>
 
                             </address>
@@ -332,7 +368,6 @@
                 </div>
             </section>
             <!-- end Contact section -->
-
 
 
             <!-- Modal Join Us Contractor
@@ -367,9 +402,7 @@
                                 <img src="{{asset('/img/logo_white.png')}}" alt="">
                             </a>
                         </h4>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias ullam numquam repudiandae
-                            repellat ex autem voluptas vel esse quo excepturi!</p>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem, repellendus.</p>
+                        <p>Baylik Group is the leading platform in Florida for training, development and growth in the world of real estate. We offer incredible and exclusive properties in commercial and residential settings. We offer wide investment possibilities.</p>
                     </div>
                     <div class="col-md-4">
                         <h4>Company</h4>
@@ -382,7 +415,7 @@
                     </div>
                     <div class="col-md-4">
                         <h4>Contractors</h4>
-                        <p>A contractor is the person or company that is contracted by another organization or individual for the construction of a building, road, installation or some special work, such as refineries or oil platforms for example</p>
+                        <p>We open the doors to our real estate projects. In this innovative business model we optimize your investments in real estate and boost your passive income. Baylik Group is transparency, trust and professionalism.</p>
                         <button class="btn btn-blue btn-effect" style="margin: 15px 0" data-toggle="modal"
                                 data-target="#be-contractor">Be Contractor
                         </button>
@@ -394,12 +427,12 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-6">
-                        <p>
+                        <p style="color:white">
                             COPYRIGHT © 2022 , THE BAYLIK GROUP | REALTOR AGENCY
                         </p>
                     </div>
                     <div class="col-md-6 text-right">
-                        <p>
+                        <p style="color:white">
                             Design and Developed By <a href="https://lesinnov.com">Les Innovations</a>
                         </p>
                     </div>
@@ -498,6 +531,6 @@
             });
         </script>
 
-        <script src="{{asset(mix('/js/app.js'))}}"></script>
+        <script src="{{asset(mix('/js/app_welcome.js'))}}"></script>
     </body>
 </html>

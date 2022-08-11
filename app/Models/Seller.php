@@ -11,9 +11,10 @@ class Seller extends Model
 
     protected $table = "seller";
 
-    protected $fillable = ["user_id", "address", "links"];
+    protected $fillable = ["users_id", "address", "links"];
 
-    public function user(){
-        return $this->hasOne(User::class,'id',"user_id");
+    public function user()
+    {
+        return $this->hasOne(User::class,'id', 'users_id');
     }
 }

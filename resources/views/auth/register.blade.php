@@ -3,10 +3,7 @@
 @section('content')
     <section id="what">
         <div class="container">
-            <div class="row" style="margin-top: 70px;
-                                    display: flex;
-                                    flex-direction: row;
-                                    justify-content: center;">
+            <div class="row auth-box" >
                 <div class="col-md-8">
                     <div class="panel panel-default">
                         <div class="panel-heading">{{ __('Register') }}</div>

@@ -9,8 +9,6 @@
 
     <title>{{ config('app.name', 'The Baylik Group') }}</title>
 
-    <!-- Scripts -->
-    <script src="{{ asset(mix('/js/app.js')) }}" defer></script>
 
     <!-- Fonts -->
     <link rel="dns-prefetch" href="//fonts.gstatic.com">
@@ -69,19 +67,37 @@
 
                 <!-- main nav -->
                 <nav class="collapse navbar-collapse navbar-right" role="navigation">
-                    <ul id="nav" class="nav navbar-nav menu">
-                        <li><a href="{{url('#what')}}"><span>What</span></a></li>
-                        <li><a href="{{url('#why')}}"><span>Why</span></a></li>
-                        <li><a href="{{url('#portfolio')}}"><span>Seller/Buyer</span></a></li>
+                    <ul  class="nav navbar-nav menu">
+                        <li><a href="{{ '/#what'}}"><span>What</span></a></li>
+                        <li><a href="{{'/#why'}}"><span>Why</span></a></li>
+                        <li><a href="{{'/#service'}}"><span>Seller/Buyer</span></a></li>
                     </ul>
-                    <ul class="nav navbar-nav menu">
+                    <ul id="auth" class="nav navbar-nav menu">
                         @if (\Illuminate\Support\Facades\Route::has('login'))
                             @auth
-                                <li><a href="{{ url('/home') }}"><span>Home</span></a></li>
+                                <li class="dropdown">
+                                    <a style="border: solid 1px #fff; padding: 8px; " href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">{{Auth::user()->name}} <span class="caret"></span></a>
+                                    <ul class="dropdown-menu">
+                                        @if(\Illuminate\Support\Facades\Gate::allows('dashboard-admin'))
+                                            <li>
+                                                <a href="{{route('home')}}"><span>{{'DASHBOARD'}}</span></a>
+                                            </li>
+                                        @endif
+                                        <li>
+                                            <a href="{{route('logout')}}"
+                                               onclick="event.preventDefault(); document.getElementById('frm-logout').submit();"><span>{{'LOGOUT'}}</span></a>
+                                        </li>
+                                    </ul>
+
+                                </li>
+
+                                <form id="frm-logout" method="POST" action="{{route('logout')}}">
+                                    {{ csrf_field() }}
+                                </form>
                             @else
-                                <li><a href="{{ route('login') }}"><span>Log in</span></a></li>
+                                <li class="login-button"><a  style="border: solid 1px #fff; padding: 8px;  " href="{{ route('login') }}"><span>Log in</span></a></li>
                                 @if (\Illuminate\Support\Facades\Route::has('register'))
-                                    <li><a href="{{ route('register') }}"><span>Register</span></a></li>
+                                    <li><a  style="border: solid 1px #fff; padding: 8px; " href="{{ route('register') }}"><span>Register</span></a></li>
                                 @endif
                             @endauth
 
@@ -89,11 +105,10 @@
                     </ul>
                 </nav>
                 <!-- /main nav -->
-
             </div>
         </header>
 
-        <main class="site-content" role="main" >
+        <main class="site-content" role="main" id="app_dashboard">
             @yield('content')
         </main>
     </div>
@@ -123,5 +138,7 @@
     <script src="{{asset('/js/jquery.form.min.js')}}"></script>
     <script src="{{asset('/js/jquery.validate.min.js')}}"></script>
     <script src="{{asset('/js/main.js')}}"></script>
+
+    <script src="{{asset(mix('/js/app_dashboard.js'))}}"></script>
 </body>
 </html>

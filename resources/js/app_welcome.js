@@ -24,12 +24,14 @@ Vue.component('modal-form-contractor', require('./components/ModalFormContractor
 Vue.component('modal-form-seller', require('./components/ModalFormSeller.vue').default);
 Vue.component('modal-form-buyer', require('./components/ModalFormBuyer.vue').default);
 
+
 /**
  * Next, we will create a fresh Vue application instance and attach it to
  * the page. Then, you may begin adding components to this application
  * or customize the JavaScript scaffolding to fit your unique needs.
  */
 
-const app = new Vue({
-    el: '#app',
+const app_welcome = new Vue({
+    el: '#app_welcome',
 });
+

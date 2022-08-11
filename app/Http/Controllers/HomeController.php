@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use App\Models\Contractor;
 use App\Models\User;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Gate;
 use Illuminate\Support\Facades\Hash;
 use Illuminate\Support\Facades\Log;
 
@@ -27,7 +28,10 @@ class HomeController extends Controller
      */
     public function index()
     {
-        return view('home');
+        if (Gate::allows('dashboard-admin')){
+            return view('home');
+        }
+        return view('welcome');
     }
 
 }

@@ -6149,36 +6149,6 @@ var render = function render() {
         _vm.$set(_vm.form, "address", $event.target.value);
       }
     }
-  })]), _vm._v(" "), _c("div", {
-    staticClass: "input-field"
-  }, [_c("label", {
-    attrs: {
-      "for": "links"
-    }
-  }, [_vm._v("Links Separated By Commas(Images, SocialNework, Portfolios, etc)")]), _vm._v(" "), _c("input", {
-    directives: [{
-      name: "model",
-      rawName: "v-model",
-      value: _vm.form.links,
-      expression: "form.links"
-    }],
-    staticClass: "form-control",
-    attrs: {
-      type: "text",
-      name: "links",
-      id: "links",
-      placeholder: "Your Links..."
-    },
-    domProps: {
-      value: _vm.form.links
-    },
-    on: {
-      input: function input($event) {
-        if ($event.target.composing) return;
-
-        _vm.$set(_vm.form, "links", $event.target.value);
-      }
-    }
   })])])])]), _vm._v(" "), _c("div", {
     staticClass: "modal-footer"
   }, [_c("button", {
@@ -6188,7 +6158,7 @@ var render = function render() {
       type: "button",
       "data-dismiss": "modal"
     }
-  }, [_vm._v("\n                    Close\n                ")]), _vm._v(" "), _c("button", {
+  }, [_vm._v("\n                        Close\n                    ")]), _vm._v(" "), _c("button", {
     staticClass: "btn btn-primary",
     attrs: {
       type: "button"
@@ -6227,10 +6197,10 @@ render._withStripped = true;
 
 /***/ }),
 
-/***/ "./resources/js/app.js":
-/*!*****************************!*\
-  !*** ./resources/js/app.js ***!
-  \*****************************/
+/***/ "./resources/js/app_welcome.js":
+/*!*************************************!*\
+  !*** ./resources/js/app_welcome.js ***!
+  \*************************************/
 /***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
 
 /**
@@ -6261,8 +6231,8 @@ Vue.component('modal-form-buyer', (__webpack_require__(/*! ./components/ModalFor
  * or customize the JavaScript scaffolding to fit your unique needs.
  */
 
-var app = new Vue({
-  el: '#app'
+var app_welcome = new Vue({
+  el: '#app_welcome'
 });
 
 /***/ }),
@@ -41952,7 +41922,7 @@ module.exports = JSON.parse('{"name":"axios","version":"0.21.4","description":"P
 /******/ 		// undefined = chunk not loaded, null = chunk preloaded/prefetched
 /******/ 		// [resolve, reject, Promise] = chunk loading, 0 = chunk loaded
 /******/ 		var installedChunks = {
-/******/ 			"/js/app": 0,
+/******/ 			"/js/app_welcome": 0,
 /******/ 			"css/app": 0
 /******/ 		};
 /******/ 		
@@ -42008,7 +41978,7 @@ module.exports = JSON.parse('{"name":"axios","version":"0.21.4","description":"P
 /******/ 	// startup
 /******/ 	// Load entry module and return exports
 /******/ 	// This entry module depends on other loaded chunks and execution need to be delayed
-/******/ 	__webpack_require__.O(undefined, ["css/app"], () => (__webpack_require__("./resources/js/app.js")))
+/******/ 	__webpack_require__.O(undefined, ["css/app"], () => (__webpack_require__("./resources/js/app_welcome.js")))
 /******/ 	var __webpack_exports__ = __webpack_require__.O(undefined, ["css/app"], () => (__webpack_require__("./resources/sass/app.scss")))
 /******/ 	__webpack_exports__ = __webpack_require__.O(__webpack_exports__);
 /******/ 	
