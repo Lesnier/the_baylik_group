@@ -2,6 +2,8 @@
 
 namespace App\Http\Controllers;
 
+
+use App\Mail\WelcomeEmail;
 use App\Models\Buyer;
 use App\Models\Contractor;
 use App\Models\Seller;
@@ -10,6 +12,7 @@ use Exception;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Hash;
 use Illuminate\Support\Facades\Log;
+use Illuminate\Support\Facades\Mail;
 use Illuminate\Support\Facades\Validator;
 
 class StakeholderController extends Controller
@@ -42,6 +45,8 @@ class StakeholderController extends Controller
                 'licencia' => $validated['lic'],
                 'users_id' => $user->id
             ]);
+            $this->sendWelcomeEmail($validated['name'], $validated['email'] );
+
 
             return response()->json(['message' => 'Successfully Registered Contractor!'], 200);
         } catch (\Exception $exception) {
@@ -78,6 +83,7 @@ class StakeholderController extends Controller
                 'users_id' => $user->id
             ]);
 
+            $this->sendWelcomeEmail($validated['name'], $validated['email'] );
 
             return response()->json(['message' => 'Successfully Registered Seller!'], 200);
         } catch (\Exception $exception) {
@@ -112,6 +118,8 @@ class StakeholderController extends Controller
                 'punto_precio' => $request->input('punto_precio'),
                 'users_id' => $user->id
             ]);
+
+            $this->sendWelcomeEmail($validated['name'], $validated['email'] );
 
             return response()->json(['message' => 'Successfully Registered Buyer!'], 200);
         } catch (\Exception $exception) {
@@ -160,7 +168,7 @@ class StakeholderController extends Controller
         }
     }
 
-    public function getUserProfile(){
-
+    public function sendWelcomeEmail($name, $email){
+        Mail::to($email)->send(new WelcomeEmail($name));
     }
 }

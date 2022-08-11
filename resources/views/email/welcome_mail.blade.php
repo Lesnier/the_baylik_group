@@ -461,14 +461,7 @@
                             <table role="presentation" border="0" cellpadding="0" cellspacing="0" width="100%">
                                 <tr>
                                     <td width="40%" class="logo" style="text-align: left;">
-                                        <h1><a href="#">The Baylik Group</a></h1>
-                                    </td>
-                                    <td width="60%" class="logo" style="text-align: right;">
-                                        <ul class="navigation">
-                                            <li><a href="#">About Us</a></li>
-                                            <li><a href="#">Our Mission</a></li>
-                                            <li><a href="#">Seller / Buyer</a></li>
-                                        </ul>
+                                        <h1><a href="#">Hi, {{$name}}.</a></h1>
                                     </td>
                                 </tr>
                             </table>
