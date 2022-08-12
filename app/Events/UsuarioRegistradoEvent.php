@@ -24,7 +24,7 @@ class UsuarioRegistradoEvent
      */
     public function __construct(User $user)
     {
-        Log::info('in Listener-> ' . print_r($user, true));
+        Log::info('in Event-> ' . print_r($user, true));
         $this->user = $user;
     }
 

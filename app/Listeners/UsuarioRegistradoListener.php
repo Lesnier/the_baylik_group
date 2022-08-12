@@ -29,6 +29,7 @@ class UsuarioRegistradoListener implements ShouldQueue
      */
     public function handle(UsuarioRegistradoEvent $event)
     {
+        Log::info('in User Name -> ' . print_r($event->user->name, true));
         Log::info('in Listener-> ' . print_r($event->user, true));
         Mail::to($event->user->email)->send(new WelcomeEmail($event->user->name));
     }
