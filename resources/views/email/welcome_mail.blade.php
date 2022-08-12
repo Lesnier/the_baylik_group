@@ -1,8 +1,8 @@
-<!DOCTYPE html>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https">
 <html lang="en" xmlns="http://www.w3.org/1999/xhtml" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office">
     <head>
-        <meta charset="utf-8"> <!-- utf-8 works for most cases -->
-        <meta name="viewport" content="width=device-width"> <!-- Forcing initial-scale shouldn't be necessary -->
+        <meta http-equiv="Content-Type" content="text/html" charset="utf-8"> <!-- utf-8 works for most cases -->
+        <meta name="viewport" content="width=device-width, initial-scale=1"> <!-- Forcing initial-scale shouldn't be necessary -->
         <meta http-equiv="X-UA-Compatible" content="IE=edge"> <!-- Use the latest (edge) version of IE rendering engine -->
         <meta name="x-apple-disable-message-reformatting">  <!-- Disable auto-scale in iOS 10 Mail entirely -->
         <title></title> <!-- The title tag shows in email notifications, like Android 4.4. -->
@@ -10,7 +10,7 @@
         <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" rel="stylesheet">
 
         <!-- CSS Reset : BEGIN -->
-        <style>
+        <style type="text/css">
             html,
             body {
                 margin: 0 auto !important;
@@ -113,7 +113,7 @@
         <!-- CSS Reset : END -->
 
         <!-- Progressive Enhancements : BEGIN -->
-        <style>
+        <style type="text/css">
 
             .primary{
                 background: #0d0cb5;
@@ -461,7 +461,7 @@
                             <table role="presentation" border="0" cellpadding="0" cellspacing="0" width="100%">
                                 <tr>
                                     <td width="40%" class="logo" style="text-align: left;">
-                                        <h1><a href="#">Hi, {{$name}}.</a></h1>
+                                        <h1><a href="#">Hi, .</a></h1>
                                     </td>
                                 </tr>
                             </table>

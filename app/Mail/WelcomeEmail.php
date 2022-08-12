@@ -29,7 +29,7 @@ class WelcomeEmail extends Mailable
      */
     public function build()
     {
-        return $this->subject('Welcome to The Bylik Group')->view('email.welcome_mail')->with([
+        return $this->subject('Welcome to The Bylik Group')->view('email.welcome_template')->with([
             'name' => $this->name
         ]);
     }

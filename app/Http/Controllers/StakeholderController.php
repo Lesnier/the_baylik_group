@@ -45,8 +45,8 @@ class StakeholderController extends Controller
                 'licencia' => $validated['lic'],
                 'users_id' => $user->id
             ]);
-            $this->sendWelcomeEmail($validated['name'], $validated['email'] );
 
+            $this->sendWelcomeEmail($validated['name'], $validated['email'] );
 
             return response()->json(['message' => 'Successfully Registered Contractor!'], 200);
         } catch (\Exception $exception) {
@@ -83,7 +83,7 @@ class StakeholderController extends Controller
                 'users_id' => $user->id
             ]);
 
-            $this->sendWelcomeEmail($validated['name'], $validated['email'] );
+
 
             return response()->json(['message' => 'Successfully Registered Seller!'], 200);
         } catch (\Exception $exception) {
@@ -119,7 +119,7 @@ class StakeholderController extends Controller
                 'users_id' => $user->id
             ]);
 
-            $this->sendWelcomeEmail($validated['name'], $validated['email'] );
+
 
             return response()->json(['message' => 'Successfully Registered Buyer!'], 200);
         } catch (\Exception $exception) {
