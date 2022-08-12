@@ -48,7 +48,7 @@ class StakeholderController extends Controller
             ]);
 
 
-            UsuarioRegistradoEvent::dispatch($user);
+            $this->sendWelcomeEmail($user);
 
             return response()->json(['message' => 'Successfully Registered Contractor!'], 200);
         } catch (\Exception $exception) {
@@ -85,7 +85,7 @@ class StakeholderController extends Controller
                 'users_id' => $user->id
             ]);
 
-            UsuarioRegistradoEvent::dispatch($user);
+            $this->sendWelcomeEmail($user);
 
             return response()->json(['message' => 'Successfully Registered Seller!'], 200);
         } catch (\Exception $exception) {
@@ -121,7 +121,7 @@ class StakeholderController extends Controller
                 'users_id' => $user->id
             ]);
 
-            UsuarioRegistradoEvent::dispatch($user);
+            $this->sendWelcomeEmail($user);
 
             return response()->json(['message' => 'Successfully Registered Buyer!'], 200);
         } catch (\Exception $exception) {
@@ -170,7 +170,9 @@ class StakeholderController extends Controller
         }
     }
 
-    public function sendWelcomeEmail($name, $email){
-        Mail::to($email)->send(new WelcomeEmail($name));
+    public function sendWelcomeEmail($user){
+       if ($user){
+           UsuarioRegistradoEvent::dispatch($user);
+       }
     }
 }
