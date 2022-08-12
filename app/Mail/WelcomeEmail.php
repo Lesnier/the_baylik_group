@@ -22,7 +22,6 @@ class WelcomeEmail extends Mailable
     {
         Log::info('in WelcomeMail contruct-> ' . print_r( $name, true));
         $this->name = $name;
-        $this->afterCommit();
     }
 
     /**
