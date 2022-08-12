@@ -24,7 +24,10 @@
                 <o:PixelsPerInch>96</o:PixelsPerInch>
             </o:OfficeDocumentSettings>
         </xml>
-        <![endif]-->
+        <![endif]--><!--[if !mso]><!-- -->
+        <link href="https://fonts.googleapis.com/css?family=Lato:400,400i,700,700i" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700,700i" rel="stylesheet">
+        <!--<![endif]-->
         <style type="text/css">
             #outlook a {
                 padding: 0;
@@ -70,16 +73,7 @@
                 border-color: #42d159 #42d159 #42d159 #42d159 !important;
             }
 
-            td .es-button-border:hover a.es-button-3 {
-                background: #fe9d2d !important;
-                border-color: #fe9d2d !important;
-            }
-
-            td .es-button-border-4:hover {
-                background: #fe9d2d !important;
-            }
-
-            [data-ogsb] .es-button.es-button-5 {
+            [data-ogsb] .es-button.es-button-3 {
                 padding: 10px 25px 10px 15px !important;
             }
 
@@ -437,8 +431,8 @@
                                            style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px;background-color:transparent;width:600px">
                                         <tr>
                                             <td align="left"
-                                                style="padding:20px;Margin:0;border-radius:10px 10px 0px 0px;background-color:#4c8aa7"
-                                                bgcolor="#4c8aa7">
+                                                style="padding:20px;Margin:0;border-radius:10px 10px 0px 0px;background-color:#393838"
+                                                bgcolor="#393838">
                                                 <table cellpadding="0" cellspacing="0" width="100%"
                                                        style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px">
                                                     <tr>
@@ -453,7 +447,7 @@
                                                                             target="_blank"
                                                                             href="https://viewstripo.email"
                                                                             style="-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;text-decoration:underline;color:#3D7781;font-size:14px"><img
-                                                                                src="https://jwvbxb.stripocdn.email/content/guids/CABINET_2e7b5e7c419fb67c255cca2bf344a8df/images/32821618490858574.png"
+                                                                                src="https://baylikgroup.com/public/img/Logo_Bailyk_Group_White.png"
                                                                                 alt="Logo"
                                                                                 style="display:block;border:0;outline:none;text-decoration:none;-ms-interpolation-mode:bicubic"
                                                                                 width="120" title="Logo"></a></td>
@@ -477,32 +471,22 @@
                                            cellspacing="0" cellpadding="0" bgcolor="#ffffff" align="center">
                                         <tr>
                                             <td align="left" bgcolor="#ffffff"
-                                                style="padding:0;Margin:0;padding-left:20px;padding-right:20px;padding-top:30px;background-color:#ffffff">
+                                                style="padding:0;Margin:0;padding-top:20px;background-color:#ffffff">
                                                 <table cellpadding="0" cellspacing="0" width="100%"
                                                        style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px">
                                                     <tr>
-                                                        <td align="left" style="padding:0;Margin:0;width:558px">
+                                                        <td align="left" style="padding:0;Margin:0;width:598px">
                                                             <table cellpadding="0" cellspacing="0" width="100%"
                                                                    role="presentation"
                                                                    style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px">
                                                                 <tr>
                                                                     <td align="center" class="es-m-txt-c"
                                                                         style="padding:0;Margin:0;padding-bottom:20px;padding-top:30px">
-                                                                        <h1 style="Margin:0;line-height:36px;mso-line-height-rule:exactly;font-family:georgia, times, 'times new roman', serif;font-size:30px;font-style:normal;font-weight:normal;color:#023047">
-                                                                            <strong>Free Webinar</strong><br>for Women's
-                                                                            Equality Day!</h1></td>
-                                                                </tr>
-                                                                <tr>
-                                                                    <td align="center"
-                                                                        style="padding:0;Margin:0;padding-right:15px;font-size:0px">
-                                                                        <a target="_blank"
-                                                                           href="https://viewstripo.email"
-                                                                           style="-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;text-decoration:underline;color:#3D7781;font-size:14px"><img
-                                                                                class="adapt-img"
-                                                                                src="https://jwvbxb.stripocdn.email/content/guids/CABINET_a258b781aab0bd98d6f802cac9b1796c/images/group_128.png"
-                                                                                alt
-                                                                                style="display:block;border:0;outline:none;text-decoration:none;-ms-interpolation-mode:bicubic"
-                                                                                width="370"></a></td>
+                                                                        <h1 style="Margin:0;line-height:36px;mso-line-height-rule:exactly;font-family:lato, 'helvetica neue', helvetica, arial, sans-serif;font-size:30px;font-style:normal;font-weight:normal;color:#023047">
+                                                                            <span
+                                                                                style="font-family:'open sans', 'helvetica neue', helvetica, arial, sans-serif"><strong>Hi, {{$name}}</strong></span><br><span
+                                                                                style="font-size:22px">Welcome to The Baylik Group</span>
+                                                                        </h1></td>
                                                                 </tr>
                                                             </table>
                                                         </td>
@@ -514,22 +498,27 @@
                                                                    role="presentation"
                                                                    style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px">
                                                                 <tr>
+                                                                    <td align="center"
+                                                                        style="padding:0;Margin:0;font-size:0px"><img
+                                                                            class="adapt-img"
+                                                                            src="https://abelnunez.training/wp-content/uploads/2017/09/business.jpg"
+                                                                            alt
+                                                                            style="display:block;border:0;outline:none;text-decoration:none;-ms-interpolation-mode:bicubic"
+                                                                            width="558"></td>
+                                                                </tr>
+                                                                <tr>
                                                                     <td align="center" class="es-m-txt-c"
                                                                         style="padding:0;Margin:0;padding-bottom:5px;padding-top:30px">
-                                                                        <h1 style="Margin:0;line-height:36px;mso-line-height-rule:exactly;font-family:georgia, times, 'times new roman', serif;font-size:30px;font-style:normal;font-weight:normal;color:#023047">
-                                                                            Let's start today!</h1></td>
+                                                                        <h2 style="Margin:0;line-height:29px;mso-line-height-rule:exactly;font-family:'open sans', 'helvetica neue', helvetica, arial, sans-serif;font-size:24px;font-style:normal;font-weight:normal;color:#023047">
+                                                                            <strong>OUR SERVICES</strong></h2></td>
                                                                 </tr>
                                                                 <tr>
                                                                     <td align="center"
                                                                         style="Margin:0;padding-top:10px;padding-bottom:20px;padding-left:40px;padding-right:40px">
                                                                         <p style="Margin:0;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;line-height:21px;color:#666666;font-size:14px">
-                                                                            Hello, *|FNAME|*! Neque gravida in fermentum
-                                                                            et sollicitudin ac. Felis eget velit aliquet
-                                                                            sagittis id consectetur purus ut. Aliquet
-                                                                            nec ullamcorper sit amet risus nullam eget
-                                                                            felis eget. Gravida cum sociis natoque
-                                                                            penatibus et magnis dis parturient montes.
-                                                                            Arcu bibendum at varius vel.&nbsp;</p></td>
+                                                                            Our services are aimed at contractors,
+                                                                            sellers, buyers who need a hand.&nbsp;</p>
+                                                                    </td>
                                                                 </tr>
                                                                 <tr>
                                                                     <td align="center" class="es-m-txt-c"
@@ -544,13 +533,177 @@
                                                                         </table>
                                                                     </td>
                                                                 </tr>
+                                                            </table>
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td align="left"
+                                                style="padding:0;Margin:0;padding-top:20px;padding-left:20px;padding-right:20px">
+                                                <!--[if mso]>
+                                                <table style="width:558px" cellpadding="0" cellspacing="0">
+                                                    <tr>
+                                                        <td style="width:192px" valign="top"><![endif]-->
+                                                <table cellpadding="0" cellspacing="0" class="es-left" align="left"
+                                                       style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px;float:left">
+                                                    <tr>
+                                                        <td class="es-m-p0r es-m-p20b" align="center"
+                                                            style="padding:0;Margin:0;width:172px">
+                                                            <table cellpadding="0" cellspacing="0" width="100%"
+                                                                   role="presentation"
+                                                                   style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px">
                                                                 <tr>
-                                                                    <td align="center" class="es-m-txt-c"
-                                                                        style="padding:0;Margin:0;padding-top:5px;padding-bottom:5px">
-                                                                        <p style="Margin:0;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;line-height:40px;color:#666666;font-size:20px">
-                                                                            Date: <strong>26 August&nbsp;at 1:00
-                                                                                PM</strong><br>Duration: <strong>90
-                                                                                min</strong></p></td>
+                                                                    <td align="left" style="padding:5px;Margin:0"><h2
+                                                                            style="Margin:0;line-height:29px;mso-line-height-rule:exactly;font-family:lato, 'helvetica neue', helvetica, arial, sans-serif;font-size:24px;font-style:normal;font-weight:normal;color:#023047;text-align:center">
+                                                                            Selling</h2></td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td align="center"
+                                                                        style="Margin:0;padding-top:5px;padding-left:5px;padding-right:5px;padding-bottom:20px">
+                                                                        <p style="Margin:0;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;line-height:21px;color:#666666;font-size:14px">
+                                                                            We guide you in the sale of your property in
+                                                                            the shortest possible time.</p></td>
+                                                                </tr>
+                                                            </table>
+                                                        </td>
+                                                        <td class="es-hidden"
+                                                            style="padding:0;Margin:0;width:20px"></td>
+                                                    </tr>
+                                                </table>
+                                                <!--[if mso]></td>
+                                                <td style="width:173px" valign="top"><![endif]-->
+                                                <table cellpadding="0" cellspacing="0" class="es-left" align="left"
+                                                       style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px;float:left">
+                                                    <tr>
+                                                        <td class="es-m-p0r es-m-p20b" align="center"
+                                                            style="padding:0;Margin:0;width:173px">
+                                                            <table cellpadding="0" cellspacing="0" width="100%"
+                                                                   role="presentation"
+                                                                   style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px">
+                                                                <tr>
+                                                                    <td align="left" style="padding:5px;Margin:0"><h2
+                                                                            style="Margin:0;line-height:29px;mso-line-height-rule:exactly;font-family:lato, 'helvetica neue', helvetica, arial, sans-serif;font-size:24px;font-style:normal;font-weight:normal;color:#023047;text-align:center">
+                                                                            Buying</h2></td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td align="center"
+                                                                        style="Margin:0;padding-top:5px;padding-left:5px;padding-right:5px;padding-bottom:20px">
+                                                                        <p style="Margin:0;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;line-height:21px;color:#666666;font-size:14px">
+                                                                            Advice and accompaniment in the purchase. We
+                                                                            find the right property for you.</p></td>
+                                                                </tr>
+                                                            </table>
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                                <!--[if mso]></td>
+                                                <td style="width:20px"></td>
+                                                <td style="width:173px" valign="top"><![endif]-->
+                                                <table cellpadding="0" cellspacing="0" class="es-right" align="right"
+                                                       style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px;float:right">
+                                                    <tr>
+                                                        <td class="es-m-p0r" align="center"
+                                                            style="padding:0;Margin:0;width:173px">
+                                                            <table cellpadding="0" cellspacing="0" width="100%"
+                                                                   role="presentation"
+                                                                   style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px">
+                                                                <tr>
+                                                                    <td align="left" style="padding:5px;Margin:0"><h2
+                                                                            style="Margin:0;line-height:29px;mso-line-height-rule:exactly;font-family:lato, 'helvetica neue', helvetica, arial, sans-serif;font-size:24px;font-style:normal;font-weight:normal;color:#023047;text-align:center">
+                                                                            Contractors</h2></td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td align="center"
+                                                                        style="Margin:0;padding-top:5px;padding-left:5px;padding-right:5px;padding-bottom:20px">
+                                                                        <p style="Margin:0;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;line-height:21px;color:#666666;font-size:14px">
+                                                                            We guide you in the sale of your property in
+                                                                            the shortest possible time.</p></td>
+                                                                </tr>
+                                                            </table>
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                                <!--[if mso]></td></tr></table><![endif]--></td>
+                                        </tr>
+                                        <tr>
+                                            <td align="left" bgcolor="#fafafa"
+                                                style="Margin:0;padding-left:20px;padding-right:20px;padding-top:30px;padding-bottom:30px;background-color:#fafafa">
+                                                <!--[if mso]>
+                                                <table style="width:558px" cellpadding="0" cellspacing="0">
+                                                    <tr>
+                                                        <td style="width:269px" valign="top"><![endif]-->
+                                                <table cellpadding="0" cellspacing="0" class="es-left" align="left"
+                                                       style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px;float:left">
+                                                    <tr>
+                                                        <td class="es-m-p20b" align="left"
+                                                            style="padding:0;Margin:0;width:269px">
+                                                            <table cellpadding="0" cellspacing="0" width="100%"
+                                                                   role="presentation"
+                                                                   style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px">
+                                                                <tr>
+                                                                    <td align="center"
+                                                                        style="padding:0;Margin:0;font-size:0px"><img
+                                                                            class="adapt-img"
+                                                                            src="https://baylikgroup.com/public/email/images/about.jpg"
+                                                                            alt
+                                                                            style="display:block;border:0;outline:none;text-decoration:none;-ms-interpolation-mode:bicubic"
+                                                                            width="269"></td>
+                                                                </tr>
+                                                            </table>
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                                <!--[if mso]></td>
+                                                <td style="width:20px"></td>
+                                                <td style="width:269px" valign="top"><![endif]-->
+                                                <table cellpadding="0" cellspacing="0" class="es-right" align="right"
+                                                       style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px;float:right">
+                                                    <tr>
+                                                        <td class="es-m-p0r" align="center"
+                                                            style="padding:0;Margin:0;width:269px">
+                                                            <table cellpadding="0" cellspacing="0" width="100%"
+                                                                   role="presentation"
+                                                                   style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px">
+                                                                <tr>
+                                                                    <td align="left"
+                                                                        style="Margin:0;padding-left:5px;padding-right:5px;padding-top:10px;padding-bottom:10px">
+                                                                        <h2 style="Margin:0;line-height:29px;mso-line-height-rule:exactly;font-family:'open sans', 'helvetica neue', helvetica, arial, sans-serif;font-size:24px;font-style:normal;font-weight:normal;color:#023047;text-align:center">
+                                                                            <strong>REALSTATE STRATEGY</strong></h2>
+                                                                    </td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td align="center"
+                                                                        style="padding:0;Margin:0;padding-top:10px;padding-bottom:10px">
+                                                                        <p style="Margin:0;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;line-height:21px;color:#666666;font-size:14px">
+                                                                            Only some professionals are successful
+                                                                            because they apply the best practices. Here
+                                                                            we help you find the proven guide to take
+                                                                            your operations to the next level.</p></td>
+                                                                </tr>
+                                                            </table>
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                                <!--[if mso]></td></tr></table><![endif]--></td>
+                                        </tr>
+                                        <tr>
+                                            <td align="left"
+                                                style="padding:0;Margin:0;padding-top:20px;padding-left:20px;padding-right:20px">
+                                                <table cellpadding="0" cellspacing="0" width="100%"
+                                                       style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px">
+                                                    <tr>
+                                                        <td align="center" valign="top"
+                                                            style="padding:0;Margin:0;width:558px">
+                                                            <table cellpadding="0" cellspacing="0" width="100%"
+                                                                   role="presentation"
+                                                                   style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px">
+                                                                <tr>
+                                                                    <td align="center"
+                                                                        style="padding:0;Margin:0;padding-top:10px;padding-bottom:10px">
+                                                                        <h2 style="Margin:0;line-height:29px;mso-line-height-rule:exactly;font-family:'open sans', 'helvetica neue', helvetica, arial, sans-serif;font-size:24px;font-style:normal;font-weight:normal;color:#023047">
+                                                                            <strong>PROJECTS</strong></h2></td>
                                                                 </tr>
                                                             </table>
                                                         </td>
@@ -560,35 +713,256 @@
                                         </tr>
                                         <tr>
                                             <td align="left"
-                                                style="Margin:0;padding-top:10px;padding-bottom:40px;padding-left:40px;padding-right:40px">
-                                                <table cellpadding="0" cellspacing="0" width="100%"
-                                                       style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px">
+                                                style="padding:0;Margin:0;padding-top:20px;padding-left:20px;padding-right:20px">
+                                                <!--[if mso]>
+                                                <table style="width:558px" cellpadding="0" cellspacing="0">
                                                     <tr>
-                                                        <td align="center" valign="top"
-                                                            style="padding:0;Margin:0;width:518px">
+                                                        <td style="width:269px" valign="top"><![endif]-->
+                                                <table cellpadding="0" cellspacing="0" class="es-left" align="left"
+                                                       style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px;float:left">
+                                                    <tr>
+                                                        <td class="es-m-p20b" align="left"
+                                                            style="padding:0;Margin:0;width:269px">
                                                             <table cellpadding="0" cellspacing="0" width="100%"
                                                                    role="presentation"
                                                                    style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px">
                                                                 <tr>
-                                                                    <td align="center" class="es-m-txt-c"
-                                                                        style="padding:0;Margin:0"><span
-                                                                            class="es-button-border-4 es-button-border"
-                                                                            style="border-style:solid;border-color:#2CB543;background:#fb8500;border-width:0px;display:inline-block;border-radius:30px;width:auto"><a
-                                                                                href="https://viewstripo.email"
-                                                                                class="es-button es-button-3"
-                                                                                target="_blank"
-                                                                                style="mso-style-priority:100 !important;text-decoration:none;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;color:#FFFFFF;font-size:18px;border-style:solid;border-color:#FB8500;border-width:10px 25px 10px 15px;display:inline-block;background:#FB8500;border-radius:30px;font-family:arial, 'helvetica neue', helvetica, sans-serif;font-weight:normal;font-style:normal;line-height:22px;width:auto;text-align:center"><!--[if !mso]><!-- --><img
-                                                                                    src="https://jwvbxb.stripocdn.email/content/guids/CABINET_2e7b5e7c419fb67c255cca2bf344a8df/images/41781618489806584.png"
-                                                                                    alt="icon" width="26"
-                                                                                    style="display:inline-block;border:0;outline:none;text-decoration:none;-ms-interpolation-mode:bicubic;vertical-align:middle;margin-right:10px"
-                                                                                    align="absmiddle"><!--<![endif]-->Join Webinar </a></span>
-                                                                    </td>
+                                                                    <td align="center"
+                                                                        style="padding:0;Margin:0;font-size:0px"><img
+                                                                            class="adapt-img"
+                                                                            src="https://baylikgroup.com/public/email/images/work-1.jpg"
+                                                                            alt
+                                                                            style="display:block;border:0;outline:none;text-decoration:none;-ms-interpolation-mode:bicubic"
+                                                                            width="269"></td>
+                                                                </tr>
+                                                            </table>
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                                <!--[if mso]></td>
+                                                <td style="width:20px"></td>
+                                                <td style="width:269px" valign="top"><![endif]-->
+                                                <table cellpadding="0" cellspacing="0" class="es-right" align="right"
+                                                       style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px;float:right">
+                                                    <tr>
+                                                        <td align="left" style="padding:0;Margin:0;width:269px">
+                                                            <table cellpadding="0" cellspacing="0" width="100%"
+                                                                   role="presentation"
+                                                                   style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px">
+                                                                <tr>
+                                                                    <td align="center"
+                                                                        style="padding:0;Margin:0;font-size:0px"><img
+                                                                            class="adapt-img"
+                                                                            src="https://baylikgroup.com/public/email/images/work-2.jpg"
+                                                                            alt
+                                                                            style="display:block;border:0;outline:none;text-decoration:none;-ms-interpolation-mode:bicubic"
+                                                                            width="269"></td>
+                                                                </tr>
+                                                            </table>
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                                <!--[if mso]></td></tr></table><![endif]--></td>
+                                        </tr>
+                                        <tr>
+                                            <td align="left" style="padding:20px;Margin:0"><!--[if mso]>
+                                                <table style="width:558px" cellpadding="0" cellspacing="0">
+                                                    <tr>
+                                                        <td style="width:269px" valign="top"><![endif]-->
+                                                <table cellpadding="0" cellspacing="0" class="es-left" align="left"
+                                                       style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px;float:left">
+                                                    <tr>
+                                                        <td class="es-m-p20b" align="left"
+                                                            style="padding:0;Margin:0;width:269px">
+                                                            <table cellpadding="0" cellspacing="0" width="100%"
+                                                                   role="presentation"
+                                                                   style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px">
+                                                                <tr>
+                                                                    <td align="center"
+                                                                        style="padding:0;Margin:0;font-size:0px"><img
+                                                                            class="adapt-img"
+                                                                            src="https://baylikgroup.com/public/email/images/work-3.jpg"
+                                                                            alt
+                                                                            style="display:block;border:0;outline:none;text-decoration:none;-ms-interpolation-mode:bicubic"
+                                                                            width="269"></td>
+                                                                </tr>
+                                                            </table>
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                                <!--[if mso]></td>
+                                                <td style="width:20px"></td>
+                                                <td style="width:269px" valign="top"><![endif]-->
+                                                <table cellpadding="0" cellspacing="0" class="es-right" align="right"
+                                                       style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px;float:right">
+                                                    <tr>
+                                                        <td align="left" style="padding:0;Margin:0;width:269px">
+                                                            <table cellpadding="0" cellspacing="0" width="100%"
+                                                                   role="presentation"
+                                                                   style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px">
+                                                                <tr>
+                                                                    <td align="center"
+                                                                        style="padding:0;Margin:0;font-size:0px"><img
+                                                                            class="adapt-img"
+                                                                            src="https://baylikgroup.com/public/email/images/work-4.jpg"
+                                                                            alt
+                                                                            style="display:block;border:0;outline:none;text-decoration:none;-ms-interpolation-mode:bicubic"
+                                                                            width="269"></td>
+                                                                </tr>
+                                                            </table>
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                                <!--[if mso]></td></tr></table><![endif]--></td>
+                                        </tr>
+                                        <tr>
+                                            <td align="left" bgcolor="#fafafa"
+                                                style="Margin:0;padding-top:15px;padding-bottom:15px;padding-left:20px;padding-right:20px;background-color:#fafafa">
+                                                <table cellpadding="0" cellspacing="0" width="100%"
+                                                       style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px">
+                                                    <tr>
+                                                        <td align="center" valign="top"
+                                                            style="padding:0;Margin:0;width:558px">
+                                                            <table cellpadding="0" cellspacing="0" width="100%"
+                                                                   role="presentation"
+                                                                   style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px">
+                                                                <tr>
+                                                                    <td align="left" style="padding:15px;Margin:0"><h1
+                                                                            style="Margin:0;line-height:36px;mso-line-height-rule:exactly;font-family:lato, 'helvetica neue', helvetica, arial, sans-serif;font-size:30px;font-style:normal;font-weight:normal;color:#333333;text-align:center">
+                                                                            <strong>¡We will contact you
+                                                                                shortly!</strong></h1></td>
                                                                 </tr>
                                                             </table>
                                                         </td>
                                                     </tr>
                                                 </table>
                                             </td>
+                                        </tr>
+                                        <tr>
+                                            <td align="left" bgcolor="#222222"
+                                                style="padding:20px;Margin:0;background-color:#222222"><!--[if mso]>
+                                                <table style="width:558px" cellpadding="0" cellspacing="0">
+                                                    <tr>
+                                                        <td style="width:192px" valign="top"><![endif]-->
+                                                <table cellpadding="0" cellspacing="0" class="es-left" align="left"
+                                                       style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px;float:left">
+                                                    <tr>
+                                                        <td class="es-m-p0r es-m-p20b" align="center"
+                                                            style="padding:0;Margin:0;width:172px">
+                                                            <table cellpadding="0" cellspacing="0" width="100%"
+                                                                   role="presentation"
+                                                                   style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px">
+                                                                <tr>
+                                                                    <td align="left" style="padding:0;Margin:0"><h2
+                                                                            style="Margin:0;line-height:29px;mso-line-height-rule:exactly;font-family:'open sans', 'helvetica neue', helvetica, arial, sans-serif;font-size:24px;font-style:normal;font-weight:normal;color:#f0f1f1">
+                                                                            <strong>About</strong></h2></td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td align="left"
+                                                                        style="padding:0;Margin:0;padding-top:20px"><p
+                                                                            style="Margin:0;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;line-height:21px;color:#ffffff;font-size:14px">
+                                                                            The Baylik Group is the leading platform in
+                                                                            Florida for training, development and growth
+                                                                            in the world of real estate.</p></td>
+                                                                </tr>
+                                                            </table>
+                                                        </td>
+                                                        <td class="es-hidden"
+                                                            style="padding:0;Margin:0;width:20px"></td>
+                                                    </tr>
+                                                </table>
+                                                <!--[if mso]></td>
+                                                <td style="width:173px" valign="top"><![endif]-->
+                                                <table cellpadding="0" cellspacing="0" class="es-left" align="left"
+                                                       style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px;float:left">
+                                                    <tr>
+                                                        <td class="es-m-p0r es-m-p20b" align="center"
+                                                            style="padding:0;Margin:0;width:173px">
+                                                            <table cellpadding="0" cellspacing="0" width="100%"
+                                                                   role="presentation"
+                                                                   style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px">
+                                                                <tr>
+                                                                    <td align="left" style="padding:0;Margin:0"><h2
+                                                                            style="Margin:0;line-height:29px;mso-line-height-rule:exactly;font-family:'open sans', 'helvetica neue', helvetica, arial, sans-serif;font-size:24px;font-style:normal;font-weight:normal;color:#ffffff">
+                                                                            <strong>Contact Info</strong></h2></td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td align="left"
+                                                                        style="padding:0;Margin:0;padding-top:20px"><p
+                                                                            style="Margin:0;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;line-height:21px;color:#ffffff;font-size:14px">
+                                                                            8570 Stirling Rd STE 102-314, Hollywood, FL
+                                                                            33024<br><br>Phone: 7862824657<br></p></td>
+                                                                </tr>
+                                                            </table>
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                                <!--[if mso]></td>
+                                                <td style="width:20px"></td>
+                                                <td style="width:173px" valign="top"><![endif]-->
+                                                <table cellpadding="0" cellspacing="0" class="es-right" align="right"
+                                                       style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px;float:right">
+                                                    <tr>
+                                                        <td class="es-m-p0r" align="center"
+                                                            style="padding:0;Margin:0;width:173px">
+                                                            <table cellpadding="0" cellspacing="0" width="100%"
+                                                                   role="presentation"
+                                                                   style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px">
+                                                                <tr>
+                                                                    <td align="left" style="padding:0;Margin:0"><h2
+                                                                            style="Margin:0;line-height:29px;mso-line-height-rule:exactly;font-family:'open sans', 'helvetica neue', helvetica, arial, sans-serif;font-size:24px;font-style:normal;font-weight:normal;color:#ffffff">
+                                                                            <strong>Links</strong></h2></td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td align="left"
+                                                                        style="padding:0;Margin:0;padding-top:20px"><p
+                                                                            style="Margin:0;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;line-height:21px;color:#ffffff;font-size:14px">
+                                                                            <a target="_blank"
+                                                                               style="-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;text-decoration:underline;color:#e69138;font-size:14px"
+                                                                               href="https://baylikgroup.com/public/">Home</a>
+                                                                        </p></td>
+                                                                </tr>
+                                                            </table>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="es-m-p0r" align="center"
+                                                            style="padding:0;Margin:0;width:173px">
+                                                            <table cellpadding="0" cellspacing="0" width="100%"
+                                                                   role="presentation"
+                                                                   style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px">
+                                                                <tr>
+                                                                    <td align="left"
+                                                                        style="padding:0;Margin:0;padding-top:20px"><p
+                                                                            style="Margin:0;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;line-height:21px;color:#ffffff;font-size:14px">
+                                                                            <a target="_blank"
+                                                                               style="-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;text-decoration:underline;color:#e69138;font-size:14px"
+                                                                               href="https://baylikgroup.com/public/#what">About
+                                                                                Use</a></p></td>
+                                                                </tr>
+                                                            </table>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="es-m-p0r" align="center"
+                                                            style="padding:0;Margin:0;width:173px">
+                                                            <table cellpadding="0" cellspacing="0" width="100%"
+                                                                   role="presentation"
+                                                                   style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px">
+                                                                <tr>
+                                                                    <td align="left"
+                                                                        style="padding:0;Margin:0;padding-top:20px"><p
+                                                                            style="Margin:0;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;line-height:21px;color:#ffffff;font-size:14px">
+                                                                            <a target="_blank"
+                                                                               style="-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;text-decoration:underline;color:#e69138;font-size:14px"
+                                                                               href="https://baylikgroup.com/public/#why">Our
+                                                                                Mission</a></p></td>
+                                                                </tr>
+                                                            </table>
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                                <!--[if mso]></td></tr></table><![endif]--></td>
                                         </tr>
                                     </table>
                                 </td>
@@ -602,8 +976,8 @@
                                            style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px;background-color:transparent;width:600px">
                                         <tr>
                                             <td align="left"
-                                                style="Margin:0;padding-left:20px;padding-right:20px;padding-top:25px;padding-bottom:25px;border-radius:0px 0px 10px 10px;background-color:#4c8aa7"
-                                                bgcolor="#4c8aa7">
+                                                style="Margin:0;padding-left:20px;padding-right:20px;padding-top:25px;padding-bottom:25px;border-radius:0px 0px 10px 10px;background-color:#393838"
+                                                bgcolor="#393838">
                                                 <table cellpadding="0" cellspacing="0" width="100%"
                                                        style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px">
                                                     <tr>
@@ -622,7 +996,7 @@
                                                                                 <td align="center" valign="top"
                                                                                     style="padding:0;Margin:0;padding-right:20px">
                                                                                     <a target="_blank"
-                                                                                       href="https://viewstripo.email"
+                                                                                       href="https://www.facebook.com/profile.php?id=100082544864408"
                                                                                        style="-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;text-decoration:underline;color:#CCCCCC;font-size:14px"><img
                                                                                             title="Facebook"
                                                                                             src="https://jwvbxb.stripocdn.email/content/assets/img/social-icons/circle-white/facebook-circle-white.png"
@@ -632,7 +1006,27 @@
                                                                                 <td align="center" valign="top"
                                                                                     style="padding:0;Margin:0;padding-right:20px">
                                                                                     <a target="_blank"
-                                                                                       href="https://viewstripo.email"
+                                                                                       href="https://www.instagram.com/thebaylikgroup/"
+                                                                                       style="-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;text-decoration:underline;color:#CCCCCC;font-size:14px"><img
+                                                                                            title="Instagram"
+                                                                                            src="https://jwvbxb.stripocdn.email/content/assets/img/social-icons/circle-white/instagram-circle-white.png"
+                                                                                            alt="Inst" width="32"
+                                                                                            style="display:block;border:0;outline:none;text-decoration:none;-ms-interpolation-mode:bicubic"></a>
+                                                                                </td>
+                                                                                <td align="center" valign="top"
+                                                                                    style="padding:0;Margin:0;padding-right:20px">
+                                                                                    <a target="_blank"
+                                                                                       href="https://www.youtube.com/channel/UCm1fQcNy81kXBh6fs9UBYPA"
+                                                                                       style="-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;text-decoration:underline;color:#CCCCCC;font-size:14px"><img
+                                                                                            title="Youtube"
+                                                                                            src="https://jwvbxb.stripocdn.email/content/assets/img/social-icons/circle-white/youtube-circle-white.png"
+                                                                                            alt="Yt" width="32"
+                                                                                            style="display:block;border:0;outline:none;text-decoration:none;-ms-interpolation-mode:bicubic"></a>
+                                                                                </td>
+                                                                                <td align="center" valign="top"
+                                                                                    style="padding:0;Margin:0;padding-right:20px">
+                                                                                    <a target="_blank"
+                                                                                       href="https://twitter.com/thebaylikgroup"
                                                                                        style="-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;text-decoration:underline;color:#CCCCCC;font-size:14px"><img
                                                                                             title="Twitter"
                                                                                             src="https://jwvbxb.stripocdn.email/content/assets/img/social-icons/circle-white/twitter-circle-white.png"
@@ -642,110 +1036,25 @@
                                                                                 <td align="center" valign="top"
                                                                                     style="padding:0;Margin:0;padding-right:20px">
                                                                                     <a target="_blank"
-                                                                                       href="https://viewstripo.email"
+                                                                                       href="https://www.linkedin.com/in/alfredo-nunez-0a3169243/"
                                                                                        style="-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;text-decoration:underline;color:#CCCCCC;font-size:14px"><img
-                                                                                            title="Instagram"
-                                                                                            src="https://jwvbxb.stripocdn.email/content/assets/img/social-icons/circle-white/instagram-circle-white.png"
-                                                                                            alt="Inst" width="32"
+                                                                                            title="Linkedin"
+                                                                                            src="https://jwvbxb.stripocdn.email/content/assets/img/social-icons/circle-white/linkedin-circle-white.png"
+                                                                                            alt="In" width="32"
                                                                                             style="display:block;border:0;outline:none;text-decoration:none;-ms-interpolation-mode:bicubic"></a>
                                                                                 </td>
                                                                                 <td align="center" valign="top"
                                                                                     style="padding:0;Margin:0"><a
                                                                                         target="_blank"
-                                                                                        href="https://viewstripo.email"
+                                                                                        href="https://www.tiktok.com/@thebaylikgroup"
                                                                                         style="-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;text-decoration:underline;color:#CCCCCC;font-size:14px"><img
-                                                                                            title="Youtube"
-                                                                                            src="https://jwvbxb.stripocdn.email/content/assets/img/social-icons/circle-white/youtube-circle-white.png"
-                                                                                            alt="Yt" width="32"
+                                                                                            title="TikTok"
+                                                                                            src="https://jwvbxb.stripocdn.email/content/assets/img/social-icons/circle-white/tiktok-circle-white.png"
+                                                                                            alt="Tt" width="32"
                                                                                             style="display:block;border:0;outline:none;text-decoration:none;-ms-interpolation-mode:bicubic"></a>
                                                                                 </td>
                                                                             </tr>
                                                                         </table>
-                                                                    </td>
-                                                                </tr>
-                                                            </table>
-                                                        </td>
-                                                    </tr>
-                                                </table>
-                                            </td>
-                                        </tr>
-                                    </table>
-                                </td>
-                            </tr>
-                        </table>
-                        <table cellpadding="0" cellspacing="0" class="es-content" align="center"
-                               style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px;table-layout:fixed !important;width:100%">
-                            <tr>
-                                <td class="es-info-area" align="center" style="padding:0;Margin:0">
-                                    <table class="es-content-body" align="center" cellpadding="0" cellspacing="0"
-                                           style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px;background-color:transparent;width:600px">
-                                        <tr>
-                                            <td align="left" style="padding:20px;Margin:0">
-                                                <table cellpadding="0" cellspacing="0" width="100%"
-                                                       style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px">
-                                                    <tr>
-                                                        <td align="center" valign="top"
-                                                            style="padding:0;Margin:0;width:560px">
-                                                            <table cellpadding="0" cellspacing="0" width="100%"
-                                                                   role="presentation"
-                                                                   style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px">
-                                                                <tr>
-                                                                    <td align="center" class="es-infoblock"
-                                                                        style="padding:0;Margin:0;line-height:14px;font-size:12px;color:#CCCCCC">
-                                                                        <p style="Margin:0;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;line-height:14px;color:#999999;font-size:12px">
-                                                                            We have sent you this email because you
-                                                                            provided us with your email address as part
-                                                                            of the purchasing process on <a
-                                                                                target="_blank"
-                                                                                href="https://viewstripo.email"
-                                                                                style="-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;text-decoration:underline;color:#CCCCCC;font-size:12px">reliability.com</a>&nbsp;Your
-                                                                            email address will not be used for any other
-                                                                            purpose, unless you have previously opted in
-                                                                            to receive emails from us.<br><br>Reliability&nbsp;Inc.,
-                                                                            5675 Silver Wharf, Chicago Creek,
-                                                                            Connecticut, 06331-6807, US</p>
-                                                                        <p style="Margin:0;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;line-height:14px;color:#999999;font-size:12px">
-                                                                            <br><br>To ensure Reliability&nbsp;emails
-                                                                            reach your inbox, please add&nbsp;<a
-                                                                                target="_blank" href=""
-                                                                                style="-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;text-decoration:underline;color:#CCCCCC;font-size:12px">email@reliability</a>
-                                                                            &nbsp;to your address book</p></td>
-                                                                </tr>
-                                                            </table>
-                                                        </td>
-                                                    </tr>
-                                                </table>
-                                            </td>
-                                        </tr>
-                                    </table>
-                                </td>
-                            </tr>
-                        </table>
-                        <table cellpadding="0" cellspacing="0" class="es-content" align="center"
-                               style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px;table-layout:fixed !important;width:100%">
-                            <tr>
-                                <td align="center" style="padding:0;Margin:0">
-                                    <table class="es-content-body" align="center" cellpadding="0" cellspacing="0"
-                                           style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px;background-color:transparent;width:600px">
-                                        <tr>
-                                            <td align="left" style="padding:20px;Margin:0">
-                                                <table cellpadding="0" cellspacing="0" width="100%"
-                                                       style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px">
-                                                    <tr>
-                                                        <td align="center" valign="top"
-                                                            style="padding:0;Margin:0;width:560px">
-                                                            <table cellpadding="0" cellspacing="0" width="100%"
-                                                                   role="presentation"
-                                                                   style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px">
-                                                                <tr>
-                                                                    <td align="center" class="es-infoblock made_with"
-                                                                        style="padding:0;Margin:0;line-height:120%;font-size:0;color:#CCCCCC">
-                                                                        <a target="_blank"
-                                                                           href="https://viewstripo.email/?utm_source=templates&utm_medium=email&utm_campaign=company_1&utm_content=reminder_for_an_hour"
-                                                                           style="-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;text-decoration:underline;color:#CCCCCC;font-size:12px"><img
-                                                                                src="https://jwvbxb.stripocdn.email/content/guids/CABINET_09023af45624943febfa123c229a060b/images/7911561025989373.png"
-                                                                                alt width="125"
-                                                                                style="display:block;border:0;outline:none;text-decoration:none;-ms-interpolation-mode:bicubic"></a>
                                                                     </td>
                                                                 </tr>
                                                             </table>
