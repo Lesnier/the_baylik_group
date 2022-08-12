@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 
+use App\Events\UsuarioRegistradoEvent;
 use App\Mail\WelcomeEmail;
 use App\Models\Buyer;
 use App\Models\Contractor;
@@ -46,7 +47,7 @@ class StakeholderController extends Controller
                 'users_id' => $user->id
             ]);
 
-            $this->sendWelcomeEmail($validated['name'], $validated['email'] );
+            UsuarioRegistradoEvent::dispatch($user);
 
             return response()->json(['message' => 'Successfully Registered Contractor!'], 200);
         } catch (\Exception $exception) {
@@ -83,7 +84,7 @@ class StakeholderController extends Controller
                 'users_id' => $user->id
             ]);
 
-
+            UsuarioRegistradoEvent::dispatch($user);
 
             return response()->json(['message' => 'Successfully Registered Seller!'], 200);
         } catch (\Exception $exception) {
@@ -119,7 +120,7 @@ class StakeholderController extends Controller
                 'users_id' => $user->id
             ]);
 
-
+            UsuarioRegistradoEvent::dispatch($user);
 
             return response()->json(['message' => 'Successfully Registered Buyer!'], 200);
         } catch (\Exception $exception) {
