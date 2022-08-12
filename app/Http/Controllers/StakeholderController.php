@@ -121,7 +121,7 @@ class StakeholderController extends Controller
                 'users_id' => $user->id
             ]);
 
-            $this->sendWelcomeEmail($user);
+            Mail::to($user->email)->send(new WelcomeEmail($user->name));
 
             return response()->json(['message' => 'Successfully Registered Buyer!'], 200);
         } catch (\Exception $exception) {
