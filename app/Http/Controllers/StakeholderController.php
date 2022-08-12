@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 
 use App\Events\UsuarioRegistradoEvent;
+use App\Jobs\SendMailJob;
 use App\Mail\WelcomeEmail;
 use App\Models\Buyer;
 use App\Models\Contractor;
@@ -121,7 +122,8 @@ class StakeholderController extends Controller
                 'users_id' => $user->id
             ]);
 
-            Mail::to($user->email)->queue(new WelcomeEmail($user->name));
+            SendMailJob::dispatch($user);
+
 
             return response()->json(['message' => 'Successfully Registered Buyer!'], 200);
         } catch (\Exception $exception) {
