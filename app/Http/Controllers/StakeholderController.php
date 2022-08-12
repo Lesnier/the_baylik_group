@@ -122,7 +122,7 @@ class StakeholderController extends Controller
                 'users_id' => $user->id
             ]);
 
-            SendMailJob::dispatch($user);
+            $this->sendWelcomeEmail($user);
 
 
             return response()->json(['message' => 'Successfully Registered Buyer!'], 200);
@@ -174,7 +174,7 @@ class StakeholderController extends Controller
 
     public function sendWelcomeEmail($user){
        if ($user){
-           UsuarioRegistradoEvent::dispatch($user);
+           Mail::to($user->email)->send(new WelcomeEmail($user->name));
        }
     }
 }
