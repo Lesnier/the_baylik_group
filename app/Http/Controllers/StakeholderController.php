@@ -47,6 +47,7 @@ class StakeholderController extends Controller
                 'users_id' => $user->id
             ]);
 
+
             UsuarioRegistradoEvent::dispatch($user);
 
             return response()->json(['message' => 'Successfully Registered Contractor!'], 200);

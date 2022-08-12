@@ -10,6 +10,7 @@ use Illuminate\Broadcasting\PrivateChannel;
 use Illuminate\Contracts\Broadcasting\ShouldBroadcast;
 use Illuminate\Foundation\Events\Dispatchable;
 use Illuminate\Queue\SerializesModels;
+use Illuminate\Support\Facades\Log;
 
 class UsuarioRegistradoEvent
 {
@@ -23,6 +24,7 @@ class UsuarioRegistradoEvent
      */
     public function __construct(User $user)
     {
+        Log::info('in Listener-> ' . print_r($user, true));
         $this->user = $user;
     }
 
