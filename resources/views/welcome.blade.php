@@ -91,8 +91,8 @@
                 <!-- main nav -->
                 <nav class="collapse navbar-collapse navbar-right" role="navigation">
                     <ul id="nav" class="nav navbar-nav menu">
-                        <li><a href="{{url('#what')}}"><span>What</span></a></li>
-                        <li><a href="{{url('#why')}}"><span>Why</span></a></li>
+                        <li><a href="{{url('#what')}}"><span>About us</span></a></li>
+                        <li><a href="{{url('#why')}}"><span>Our Mission</span></a></li>
                         <li><a href="{{url('#service')}}"><span>Seller/Buyer</span></a></li>
                     </ul>
                     <ul id="auth" class="nav navbar-nav menu" >
@@ -153,12 +153,12 @@
                             <div class="slide-caption">
                                 <div class="caption-content">
                                     <h2 class="animated fadeInDown">
-                                        You are Contractor. Join us!
+                                       Expand your Real State career!
                                     </h2>
                                     <p class="animated fadeInDown">You are always one decision away from a completely
                                         different life.</p>
                                     <button class="btn btn-blue btn-effect" data-toggle="modal"
-                                            data-target="#be-contractor">Join as Contractor
+                                            data-target="#be-contractor">Join Us!
                                     </button>
                                 </div>
                             </div>
@@ -172,10 +172,9 @@
                             <div class="slide-caption">
                                 <div class="caption-content">
                                     <h2 class="animated fadeInDown">Welcome Sellers!</h2>
-                                    <p class="animated fadeInDown">Don't look for customers for your products, look for
-                                        products for your customers</p>
+                                    <p class="animated fadeInDown">Get your property sold at the right price. With the right team.</p>
                                     <button class="btn btn-blue btn-effect" data-toggle="modal"
-                                            data-target="#be-seller">Join as Seller
+                                            data-target="#be-seller">Contact Us
                                     </button>
                                 </div>
                             </div>
@@ -193,7 +192,7 @@
                                         Make your life a dream, and your dream a reality.
                                     </p>
                                     <a href="#" class="btn btn-blue btn-effect" data-toggle="modal"
-                                       data-target="#be-buyer">Join as Buyer</a>
+                                       data-target="#be-buyer">Contact Us</a>
                                 </div>
                             </div>
 
@@ -231,17 +230,14 @@
                         <div class="section-title text-center">
                             <h2>About Us</h2>
                         </div>
-                        <div class="col-md-4 about-us">
-                            <h4>The best business</h4>
+                        <div class="col-md-12 about-us">
                             <p>Here at Baylik Group we are positioning our brand to help our agents be one of the most investor focus in the South Florida market. While we provide a traditional list and buy platform with global connections to all of our clients. We also have invested in Real Estate our self and are very familiar with the process of commercial, residential, and leasing investments properties. Setting us up to help you achieve all you Real Estate investment goals.</p>
                             <button class="btn btn-blue btn-effect" style="margin: 15px 0" data-toggle="modal"
-                                    data-target="#be-contractor">Be Contractor
+                                    data-target="#be-contractor">Join Us!
                             </button>
 
                         </div>
-                        <div class="col-md-8">
-                            <img class="img-responsive" src="{{asset('/img/features.jpg')}}" alt="">
-                        </div>
+
                     </div>
                 </div>
             </section>
@@ -273,7 +269,7 @@
                     <div class="row">
 
                         <div class="section-title text-center">
-                            <h2>We Help You</h2>
+                            <h2>We Can Help You</h2>
                         </div>
 
                         <div class="col-md-6 col-sm-6 col-xs-12 text-center">
@@ -281,7 +277,7 @@
                                 <div class="service-icon">
                                     <i class="ion-home"></i>
                                 </div>
-                                <h3>Seller</h3>
+                                <h3>Sellers</h3>
                                 <p style="text-align: justify; margin-bottom: 10px">When you work with The Baylik Group
                                     , you’re working with someone that combines market expertise with entrepreneurial
                                     innovation. We will listen to your needs and goals, use data and creativity to
@@ -295,7 +291,7 @@
                                     home, or just want to get a sense of what your home would get on the market, we
                                     would love to meet.</p>
                                 <button class="btn btn-blue btn-effect" data-toggle="modal"
-                                        data-target="#be-seller" style="margin: 15px 0">Be Seller
+                                        data-target="#be-seller" style="margin: 15px 0">Contact Us
                                 </button>
                             </div>
                         </div>
@@ -305,7 +301,7 @@
                                 <div class="service-icon">
                                     <i class="ion-person"></i>
                                 </div>
-                                <h3>Buyer</h3>
+                                <h3>Buyers</h3>
                                 <p style="text-align: justify; margin-bottom: 10px">Buying a property or investing in
                                     South Florida?. Experience and expertise matter, and they can make a significant
                                     difference in making sure that you not only find the right house, but that you also
@@ -322,7 +318,7 @@
                                     meeting.</p>
                                 <button data-toggle="modal"
                                         data-target="#be-buyer" class="btn btn-blue btn-effect" style="margin: 15px 0">
-                                    Be Buyer
+                                    Contact Us
                                 </button>
                             </div>
                         </div>
@@ -356,8 +352,17 @@
                                 <div class="col-md-4">
                                     <p><i class="ion-ios-telephone-outline"></i>Phone: 7862824657 </p>
                                 </div>
-                                <div class="col-md-4">
-                                    <p><i class="ion-ios-email-outline"></i>info@thebaylikgroup.com</p>
+                                <div class="col-md-4 social inline" >
+                                    <p style="display: flex; align-items: center"><i class="ion-ios-email-outline"></i><a href="mailto:info@thebaylikgroup.com?Subject=I%20want%20to%20know%20more" target="_blank">info@thebaylikgroup.com</a> </p>
+                                   <div class="form-inline" style="margin-top: 10px">
+                                       <a href="https://www.facebook.com/profile.php?id=100082544864408" target="_blank"><i class="ion-social-facebook"></i></a>
+                                       <a href="https://www.instagram.com/thebaylikgroup/" target="_blank"><i class="ion-social-instagram"></i></a>
+                                       <a href="https://www.youtube.com/channel/UCm1fQcNy81kXBh6fs9UBYPA" target="_blank"><i class="ion-social-youtube"></i></a>
+                                       <a href="https://www.linkedin.com/in/alfredo-nunez-0a3169243/" target="_blank"><i class="ion-social-linkedin"></i></a>
+                                       <a href="https://twitter.com/thebaylikgroup" target="_blank"><i class="ion-social-twitter"></i></a>
+                                       <a href="https://www.tiktok.com/@thebaylikgroup" target="_blank" style="font-weight: 700">TikTok</a>
+                                   </div>
+
                                 </div>
 
                             </address>
@@ -404,20 +409,20 @@
                         </h4>
                         <p>Baylik Group is the leading platform in Florida for training, development and growth in the world of real estate. We offer incredible and exclusive properties in commercial and residential settings. We offer wide investment possibilities.</p>
                     </div>
-                    <div class="col-md-4">
+                    <div class="col-md-4 footer-item">
                         <h4>Company</h4>
                         <ul>
-                            <li><a href="#what">What</a></li>
-                            <li><a href="#why">Why</a></li>
+                            <li><a href="#what">About us</a></li>
+                            <li><a href="#why">Our Mission</a></li>
                             <li><a href="#service">Seller / Buyer</a></li>
                             <li><a href="#contact">Contact</a></li>
                         </ul>
                     </div>
-                    <div class="col-md-4">
-                        <h4>Contractors</h4>
+                    <div class="col-md-4 footer-item">
+                        <h4>Agents</h4>
                         <p>We open the doors to our real estate projects. In this innovative business model we optimize your investments in real estate and boost your passive income. Baylik Group is transparency, trust and professionalism.</p>
                         <button class="btn btn-blue btn-effect" style="margin: 15px 0" data-toggle="modal"
-                                data-target="#be-contractor">Be Contractor
+                                data-target="#be-contractor">Join Us
                         </button>
                     </div>
                 </div>
@@ -467,69 +472,6 @@
         <script src="{{asset('/js/jquery.form.min.js')}}"></script>
         <script src="{{asset('/js/jquery.validate.min.js')}}"></script>
         <script src="{{asset('/js/main.js')}}"></script>
-        <script>
-            $(function () {
-                $("#contact-form").validate({
-                    rules: {
-                        name: {
-                            required: true,
-                            minlength: 2
-                        },
-                        email: {
-                            required: true,
-                            email: true
-                        },
-                        subject: {
-                            required: true,
-                            minlength: 2
-                        },
-                        message: {
-                            required: true,
-                            minlength: 2
-                        }
-                    },
-                    messages: {
-                        name: {
-                            required: "come on, you have a name don't you?",
-                            minlength: "your name must consist of at least 2 characters"
-                        },
-                        email: {
-                            required: "no email, no support"
-                        },
-                        subject: {
-                            required: "you have a reason to contact, write it here",
-                            minlength: "thats all? really?"
-                        },
-                        message: {
-                            required: "um...yea, you have to write something to send this form.",
-                            minlength: "thats all? really?"
-                        }
-                    },
-                    submitHandler: function (form) {
-                        $(form).ajaxSubmit({
-                            type: "POST",
-                            data: $(form).serialize(),
-                            url: "mail.php",
-                            success: function () {
-                                $(".contact-form").fadeTo("slow", 1, function () {
-                                    $(".contact-form").resetForm();
-                                    $(".success").slideDown("slow");
-                                });
-                            },
-                            error: function () {
-                                $(".contact-form").fadeTo("slow", 1, function () {
-                                    $(".error").slideDown("slow");
-                                });
-                            }
-                        });
-                    },
-                    errorPlacement: function (error, element) {
-                        element.after(error);
-                        error.hide().slideDown();
-                    }
-                });
-            });
-        </script>
 
         <script src="{{asset(mix('/js/app_welcome.js'))}}"></script>
     </body>

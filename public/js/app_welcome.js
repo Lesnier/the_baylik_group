@@ -5909,7 +5909,7 @@ var render = function render() {
     attrs: {
       "for": "lic"
     }
-  }, [_vm._v("Contractor Licence")]), _vm._v(" "), _c("input", {
+  }, [_vm._v("Agent License")]), _vm._v(" "), _c("input", {
     directives: [{
       name: "model",
       rawName: "v-model",
@@ -5978,7 +5978,7 @@ var staticRenderFns = [function () {
     }
   }, [_vm._v("×")])]), _vm._v(" "), _c("h4", {
     staticClass: "modal-title"
-  }, [_vm._v("Join Contractor")])]);
+  }, [_vm._v("Join Baylik")])]);
 }];
 render._withStripped = true;
 
