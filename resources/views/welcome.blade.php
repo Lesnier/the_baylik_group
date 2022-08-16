@@ -14,7 +14,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
         <title>The Baylik Group</title>
 
-        <link rel="icon" type="image/x-icon" href="/img/icons/favicon.png">
+        <link rel="icon" type="image/x-icon" href="{{asset('/img/icons/favicon.png')}}">
 
         <!-- Meta Description -->
         <meta name="description"
