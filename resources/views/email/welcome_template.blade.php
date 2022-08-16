@@ -8,7 +8,7 @@
         <meta name="x-apple-disable-message-reformatting">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta content="telephone=no" name="format-detection">
-        <title>Nueva plantilla de correo electrC3B3nico 2022-08-11</title><!--[if (mso 16)]>
+        <title>The Baylik Group</title><!--[if (mso 16)]>
         <style type="text/css">
             a {
                 text-decoration: none;
@@ -24,7 +24,7 @@
                 <o:PixelsPerInch>96</o:PixelsPerInch>
             </o:OfficeDocumentSettings>
         </xml>
-        <![endif]--><!--[if !mso]><!-- -->
+        <![endif]--><!--[if !mso]> -->
         <link href="https://fonts.googleapis.com/css?family=Lato:400,400i,700,700i" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700,700i" rel="stylesheet">
         <!--<![endif]-->
@@ -670,7 +670,7 @@
                                                                     <td align="left"
                                                                         style="Margin:0;padding-left:5px;padding-right:5px;padding-top:10px;padding-bottom:10px">
                                                                         <h2 style="Margin:0;line-height:29px;mso-line-height-rule:exactly;font-family:'open sans', 'helvetica neue', helvetica, arial, sans-serif;font-size:24px;font-style:normal;font-weight:normal;color:#023047;text-align:center">
-                                                                            <strong>REALSTATE STRATEGY</strong></h2>
+                                                                            <strong>REALESTATE STRATEGY</strong></h2>
                                                                     </td>
                                                                 </tr>
                                                                 <tr>

@@ -13,6 +13,9 @@
         <!-- Always force latest IE rendering engine or request Chrome Frame -->
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
         <title>The Baylik Group</title>
+
+        <link rel="icon" type="image/x-icon" href="/img/icons/favicon.png">
+
         <!-- Meta Description -->
         <meta name="description"
               content="The Baylik Group is the leading platform in Florida for the formation, development and growth of investor in Real Estate.">
@@ -153,7 +156,7 @@
                             <div class="slide-caption">
                                 <div class="caption-content">
                                     <h2 class="animated fadeInDown">
-                                       Expand your Real State career!
+                                       Expand your Real Estate career!
                                     </h2>
                                     <p class="animated fadeInDown">You are always one decision away from a completely
                                         different life.</p>
