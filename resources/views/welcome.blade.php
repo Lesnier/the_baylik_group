@@ -94,9 +94,10 @@ Fixed Navigation
         <!-- main nav -->
         <nav class="collapse navbar-collapse navbar-right" role="navigation">
             <ul id="nav" class="nav navbar-nav menu">
-                <li><a href="{{url('#what')}}"><span>About us</span></a></li>
-                <li><a href="{{url('#why')}}"><span>Our Mission</span></a></li>
-                <li><a href="{{url('#service')}}"><span>Seller/Buyer</span></a></li>
+
+                <li><a href="{{url('#steps')}}"><span>3 Step To success</span></a></li>
+                <li><a href="{{url('#why')}}"><span>Why Join</span></a></li>
+                <li><a href="{{url('#contact')}}"><span>Contact</span></a></li>
             </ul>
             <ul id="auth" class="nav navbar-nav menu">
                 @if (\Illuminate\Support\Facades\Route::has('login'))
@@ -277,7 +278,7 @@ End Fixed Navigation
     </section>
 
 
-    <section id="why">
+    <section id="testimonial">
         <div class="container">
             <div class="row">
                 <div class=" text-center" style="margin-bottom: 40px;">
@@ -331,7 +332,7 @@ End Fixed Navigation
 
 
     <!-- Service section -->
-    <section id="service">
+    <section id="why">
         <div class="container">
             <div class="row">
 

@@ -623,8 +623,13 @@ h1.navbar-brand {
     background: #f1f1f1;
 }
 
-#why {
+#testimonial {
     background: #f1f1f1;
+}
+
+
+#why {
+    background: white;
 }
 #why img {
 }
