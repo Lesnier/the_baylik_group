@@ -12,6 +12,9 @@
 
 /* =================================== */
 /*	Basic Style
+*   Orange Color #0d6efd
+*   BBLue color #0d6efd  -> rgb(13,110,253)
+ */
 /* =================================== */
 
 body {
@@ -30,7 +33,7 @@ iframe {
 }
 
 a {
-    color: #ff6700;
+    color: #0d6efd;
     -webkit-transition: all 0.3s ease-out 0s;
        -moz-transition: all 0.3s ease-out 0s;
         -ms-transition: all 0.3s ease-out 0s;
@@ -63,7 +66,7 @@ main > section {
 }
 
 .btn-blue {
-    background-color: rgba(255, 103, 0, 0.75);
+    background-color: rgba(13,110,253, 0.75);
     box-shadow: 0 -2px 0 rgba(0, 0, 0, 0.15) inset;
     padding: 15px 55px;
     color: #fff;
@@ -76,7 +79,7 @@ main > section {
 }
 
 .bg-blue {
-    background-color: #ff6700;
+    background-color: #0d6efd;
 }
 
 /* Sweep To Right */
@@ -146,7 +149,7 @@ main > section {
 }
 
 .btn-effect:hover, .btn-effect:focus, .btn-effect:active {
-	color: rgb(255, 103, 0);
+	color: rgb(13,110,253);
 }
 
 .btn-effect:hover:before, .btn-effect:focus:before, .btn-effect:active:before {
@@ -165,7 +168,7 @@ main > section {
 }
 
 .section-title h2 {
-    color: #ff6700;
+    color: #0d6efd;
     font-size: 24px;
     font-weight: 700;
     line-height: 20px;
@@ -327,7 +330,7 @@ h1.navbar-brand {
     height: 2px;
     bottom: 0;
     left: 0;
-    background-color: #ff6700;
+    background-color: #0d6efd;
     visibility: hidden;
     -webkit-transform: scaleX(0);
     -moz-transform: scaleX(0);
@@ -482,8 +485,8 @@ h1.navbar-brand {
     transform: translateX(-20px);
 }
 #nav-arrows > a.sl-next:hover ,#nav-arrows > a.sl-prev:hover {
-    background-color: #ff6700;
-    border-color: #ff6700;
+    background-color: #0d6efd;
+    border-color: #0d6efd;
     color: #fff;
 }
 
@@ -575,14 +578,14 @@ h1.navbar-brand {
 }
 
 .fancybox-next span {
-    background: url("../img/right.png") no-repeat scroll center center #ff6700;
+    background: url("../img/right.png") no-repeat scroll center center #0d6efd;
     height: 50px;
     width: 50px;
     right: 0;
 }
 
 .fancybox-prev span {
-    background: url("../img/left.png") no-repeat scroll center center #ff6700;
+    background: url("../img/left.png") no-repeat scroll center center #0d6efd;
     height: 50px;
     width: 50px;
     left: 0;
@@ -677,7 +680,7 @@ h1.navbar-brand {
 }
 .service-icon i {
     font-size: 60px;
-    color: #ff6700;
+    color: #0d6efd;
 }
 
 .service-item h3 {
@@ -734,7 +737,7 @@ h1.navbar-brand {
 }
 
 .video-popup-button {
-    background-color: #ff6700;
+    background-color: #0d6efd;
     border-radius: 50%;
     color: #fff;
     display: inline-block;
@@ -808,7 +811,7 @@ h1.navbar-brand {
     position: relative;
 }
 .portfolio-filter li a.active {
-    color: #ff6700;
+    color: #0d6efd;
 }
 .portfolio-filter li a::after {
     bottom: auto;
@@ -937,7 +940,7 @@ ul.external li a {
 }
 
 ul.external li a:hover {
-    background-color: #ff6700;
+    background-color: #0d6efd;
     color: #fff;
 }
 
@@ -1099,7 +1102,7 @@ ul.external li a:hover {
 }
 
 .price-table.featured .value {
-    background-color: #ff6700;
+    background-color: #0d6efd;
     color: #fff;
 }
 
@@ -1148,7 +1151,7 @@ ul.external li a:hover {
 
 .price-table.featured ul li:last-child,
 .price-table ul li:last-child:hover {
-    background-color: #ff6700;
+    background-color: #0d6efd;
 }
 
 .price-table.featured ul li:last-child a,
@@ -1202,8 +1205,8 @@ ul.external li a:hover {
 }
 
 .social-button li a:hover {
-    border: 2px solid #ff6700;
-    background: #ff6700;
+    border: 2px solid #0d6efd;
+    background: #0d6efd;
     color: #fff;
 }
 
@@ -1227,7 +1230,7 @@ ul.external li a:hover {
 }
 .form-control:focus {
     box-shadow: none;
-    border-color: #ff6700;
+    border-color: #0d6efd;
 }
 
 textarea.form-control {
@@ -1402,7 +1405,7 @@ textarea.form-control {
 }
 
 .footer-social ul li a:hover {
-    color: #ff6700;
+    color: #0d6efd;
 }
 
 .footer-content > p {

@@ -412,7 +412,7 @@ End Fixed Navigation
                 <div class="col-md-4 text-center">
                     <div class="block">
                         <div
-                            style="width: 125px; height:125px; margin: 0 auto; background: #ff6700; padding: 10px; border-radius: 50%;">
+                            style="width: 125px; height:125px; margin: 0 auto; background: #0d6efd; padding: 10px; border-radius: 50%;">
                             <h2 style="margin-top: 35px; color: white; "><strong>Step 1 </strong></h2></div>
                         <br>
                         <h3>Connect
@@ -429,7 +429,7 @@ End Fixed Navigation
                 <div class="col-md-4 text-center">
                     <div class="block">
                         <div
-                            style="width: 125px; height:125px; margin: 0 auto; background: #ff6700; padding: 10px; border-radius: 50%;">
+                            style="width: 125px; height:125px; margin: 0 auto; background: #0d6efd; padding: 10px; border-radius: 50%;">
                             <h2 style="margin-top: 35px; color: white; "><strong>Step 2 </strong></h2></div>
                         <br>
                         <h3> Train
@@ -445,7 +445,7 @@ End Fixed Navigation
                 <div class="col-md-4 text-center">
                     <div class="block">
                         <div
-                            style="width: 125px; height:125px; margin: 0 auto; background: #ff6700; padding: 10px; border-radius: 50%;">
+                            style="width: 125px; height:125px; margin: 0 auto; background: #0d6efd; padding: 10px; border-radius: 50%;">
                             <h2 style="margin-top: 35px; color: white; "><strong>Step 3 </strong></h2></div>
                         <br>
                         <h3> List
