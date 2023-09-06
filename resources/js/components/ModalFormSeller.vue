@@ -46,7 +46,7 @@
                     <button id="close-modal-seller" type="button" class="btn btn-default" data-dismiss="modal">
                         Close
                     </button>
-                    <button type="button" class="btn btn-primary" @click="saveSeller()">Join Me</button>
+                    <button type="button" class="btn btn-blue btn-effect" @click="saveSeller()">Join Me</button>
                 </div>
             </div>
         </div>

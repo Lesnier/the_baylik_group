@@ -43,7 +43,7 @@
                     <button id="close-modal-contractor" type="button" class="btn btn-default" data-dismiss="modal">
                         Close
                     </button>
-                    <button type="button" class="btn btn-primary" @click="save()">Join Me</button>
+                    <button type="button" class="btn btn-blue btn-effect" @click="save()">Join Me</button>
                 </div>
             </div>
         </div>

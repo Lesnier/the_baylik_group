@@ -5727,7 +5727,7 @@ var render = function render() {
       "data-dismiss": "modal"
     }
   }, [_vm._v("\n                    Close\n                ")]), _vm._v(" "), _c("button", {
-    staticClass: "btn btn-primary",
+    staticClass: "btn btn-blue btn-effect",
     attrs: {
       type: "button"
     },
@@ -5947,7 +5947,7 @@ var render = function render() {
       "data-dismiss": "modal"
     }
   }, [_vm._v("\n                    Close\n                ")]), _vm._v(" "), _c("button", {
-    staticClass: "btn btn-primary",
+    staticClass: "btn btn-blue btn-effect",
     attrs: {
       type: "button"
     },
@@ -6159,7 +6159,7 @@ var render = function render() {
       "data-dismiss": "modal"
     }
   }, [_vm._v("\n                        Close\n                    ")]), _vm._v(" "), _c("button", {
-    staticClass: "btn btn-primary",
+    staticClass: "btn btn-blue btn-effect",
     attrs: {
       type: "button"
     },

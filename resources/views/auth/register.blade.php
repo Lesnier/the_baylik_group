@@ -68,7 +68,7 @@
 
                                 <div class="row " style="margin-top: 15px">
                                     <div class="col-md-6 offset-md-4">
-                                        <button type="submit" class="btn btn-primary">
+                                        <button type="submit" class="btn btn-blue btn-effect" style="box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;">
                                             {{ __('Register') }}
                                         </button>
                                     </div>
