@@ -173,39 +173,39 @@ End Fixed Navigation
 
                 </div>
 
-                <div class="sl-slide" data-orientation="vertical" data-slice1-rotation="10"
-                     data-slice2-rotation="-15" data-slice1-scale="1.5" data-slice2-scale="1.5">
-                    <div class="mask-overly"></div>
-                    <div class="bg-img slider-2"></div>
-                    <div class="slide-caption">
-                        <div class="caption-content">
-                            <h2 class="animated fadeInDown">Welcome Sellers!</h2>
-                            <p class="animated fadeInDown">Get your property sold at the right price. With the right
-                                team.</p>
-                            <button class="btn btn-blue btn-effect" data-toggle="modal"
-                                    data-target="#be-seller">Contact Us
-                            </button>
-                        </div>
-                    </div>
+{{--                <div class="sl-slide" data-orientation="vertical" data-slice1-rotation="10"--}}
+{{--                     data-slice2-rotation="-15" data-slice1-scale="1.5" data-slice2-scale="1.5">--}}
+{{--                    <div class="mask-overly"></div>--}}
+{{--                    <div class="bg-img slider-2"></div>--}}
+{{--                    <div class="slide-caption">--}}
+{{--                        <div class="caption-content">--}}
+{{--                            <h2 class="animated fadeInDown">Welcome Sellers!</h2>--}}
+{{--                            <p class="animated fadeInDown">Get your property sold at the right price. With the right--}}
+{{--                                team.</p>--}}
+{{--                            <button class="btn btn-blue btn-effect" data-toggle="modal"--}}
+{{--                                    data-target="#be-seller">Contact Us--}}
+{{--                            </button>--}}
+{{--                        </div>--}}
+{{--                    </div>--}}
 
-                </div>
+{{--                </div>--}}
 
-                <div class="sl-slide" data-orientation="horizontal" data-slice1-rotation="3"
-                     data-slice2-rotation="3" data-slice1-scale="2" data-slice2-scale="1">
-                    <div class="mask-overly"></div>
-                    <div class="bg-img slider-3"></div>
-                    <div class="slide-caption">
-                        <div class="caption-content">
-                            <h2 class="animated fadeInDown">Are you looking to buy your new home?</h2>
-                            <p class="animated fadeInDown">
-                                Make your life a dream, and your dream a reality.
-                            </p>
-                            <a href="#" class="btn btn-blue btn-effect" data-toggle="modal"
-                               data-target="#be-buyer">Contact Us</a>
-                        </div>
-                    </div>
+{{--                <div class="sl-slide" data-orientation="horizontal" data-slice1-rotation="3"--}}
+{{--                     data-slice2-rotation="3" data-slice1-scale="2" data-slice2-scale="1">--}}
+{{--                    <div class="mask-overly"></div>--}}
+{{--                    <div class="bg-img slider-3"></div>--}}
+{{--                    <div class="slide-caption">--}}
+{{--                        <div class="caption-content">--}}
+{{--                            <h2 class="animated fadeInDown">Are you looking to buy your new home?</h2>--}}
+{{--                            <p class="animated fadeInDown">--}}
+{{--                                Make your life a dream, and your dream a reality.--}}
+{{--                            </p>--}}
+{{--                            <a href="#" class="btn btn-blue btn-effect" data-toggle="modal"--}}
+{{--                               data-target="#be-buyer">Contact Us</a>--}}
+{{--                        </div>--}}
+{{--                    </div>--}}
 
-                </div>
+{{--                </div>--}}
 
             </div><!-- /sl-slider -->
 
