@@ -43,7 +43,7 @@
                     </div>
                 </div>
                 <div class="modal-footer">
-                    <button id="close-modal-seller" type="button" class="btn btn-default" data-dismiss="modal">
+                    <button id="close-modal-seller" type="button" class="btn btn-default" style="padding: 15px 55px;" data-dismiss="modal">
                         Close
                     </button>
                     <button type="button" class="btn btn-blue btn-effect" @click="saveSeller()">Join Me</button>

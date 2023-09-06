@@ -5721,6 +5721,9 @@ var render = function render() {
     staticClass: "modal-footer"
   }, [_c("button", {
     staticClass: "btn btn-default",
+    staticStyle: {
+      padding: "15px 55px"
+    },
     attrs: {
       id: "close-modal-buyer",
       type: "button",
@@ -5941,6 +5944,9 @@ var render = function render() {
     staticClass: "modal-footer"
   }, [_c("button", {
     staticClass: "btn btn-default",
+    staticStyle: {
+      padding: "15px 55px"
+    },
     attrs: {
       id: "close-modal-contractor",
       type: "button",
@@ -6153,6 +6159,9 @@ var render = function render() {
     staticClass: "modal-footer"
   }, [_c("button", {
     staticClass: "btn btn-default",
+    staticStyle: {
+      padding: "15px 55px"
+    },
     attrs: {
       id: "close-modal-seller",
       type: "button",

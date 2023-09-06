@@ -391,7 +391,7 @@ End Fixed Navigation
                 </div>
                 <div class="col-md-12 col-sm-12 col-xs-12 text-center" data-wow-delay="0.3s">
                     <button data-toggle="modal"
-                            data-target="#be-buyer" class="btn btn-blue btn-effect" style="margin: 15px 0">
+                            data-target="#be-contractor" class="btn btn-blue btn-effect" style="margin: 15px 0">
                         Join Us Today
                     </button>
                 </div>
