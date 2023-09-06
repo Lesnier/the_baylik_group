@@ -241,20 +241,20 @@ End Fixed Navigation
                     <p>Discover the challenges agents like you face when they settle for less</p>
                 </div>
                 <div class="col-md-3">
-                    <img src="{{asset('/img/prototype.jpg')}}" width="100%">
+                    <img src="{{asset('/img/img1.jpg')}}" width="100%">
                     <h3>Reduced Income</h3>
                     <p>Hard work should pay off. Don’t settle for reduced commissions that take away from your deserved
                         earnings</p>
                 </div>
                 <div class="col-md-3">
-                    <img src="{{asset('/img/img2.png')}}" width="100%">
+                    <img src="{{asset('/img/img2.jpg')}}" width="100%">
                     <h3>Stunted Growth</h3>
                     <p>Without the right support and training, your professional growth can be restricted. Choose a
                         brokerage that lets you flourish.</p>
                 </div>
                 <div class="col-md-3">
                     <div class="block">
-                        <img src="{{asset('/img/img3.png')}}" width="100%">
+                        <img src="{{asset('/img/img3.jpg')}}" width="100%">
                         <h3>Ineffective Marketing</h3>
                         <p>Modern real estate thrives on cutting-edge marketing. Don’t get left behind with outdated
                             strategies</p>
@@ -262,7 +262,7 @@ End Fixed Navigation
                 </div>
                 <div class="col-md-3">
                     <div class="block">
-                        <img src="{{asset('/img/img4.png')}}" width="100%">
+                        <img src="{{asset('/img/img4.jpg')}}" width="100%">
                         <h3>Burnout</h3>
                         <p>Constant struggle without backup leads to burnout. Align with a brokerage that supports your
                             wellbeing and success.</p>
