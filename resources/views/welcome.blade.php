@@ -97,7 +97,7 @@ Fixed Navigation
 
                 <li><a href="{{url('#steps')}}"><span>3 Step To success</span></a></li>
                 <li><a href="{{url('#why')}}"><span>Why Join</span></a></li>
-                <li><a href="{{url('#contact')}}"><span>Contact</span></a></li>
+                <li><a href = "javascript:void(0)" onclick="window.location.href='https://calendly.com/alfredonunez/strategy-session'" target="_blank"><span>Schedule Now</span></a></li>
             </ul>
             <ul id="auth" class="nav navbar-nav menu">
                 @if (\Illuminate\Support\Facades\Route::has('login'))
@@ -127,8 +127,8 @@ Fixed Navigation
                         <li class="login-button"><a style="border: solid 1px #fff; padding: 8px;  "
                                                     href="{{ route('login') }}"><span>Log in</span></a></li>
                         @if (\Illuminate\Support\Facades\Route::has('register'))
-                            <li><a style="border: solid 1px #fff; padding: 8px; " href="{{ route('register') }}"><span>Register</span></a>
-                            </li>
+{{--                            <li><a style="border: solid 1px #fff; padding: 8px; " href="{{ route('register') }}"><span>Register</span></a>--}}
+{{--                            </li>--}}
                         @endif
                     @endauth
                 @endif
@@ -219,14 +219,14 @@ End Fixed Navigation
 
             </div><!-- /sl-slider -->
 
-            <nav id="nav-arrows" class="nav-arrows hidden-xs hidden-sm visible-md visible-lg">
-                <a href="javascript:;" class="sl-prev">
-                    <i class="fa fa-angle-left fa-3x"></i>
-                </a>
-                <a href="javascript:;" class="sl-next">
-                    <i class="fa fa-angle-right fa-3x"></i>
-                </a>
-            </nav>
+{{--            <nav id="nav-arrows" class="nav-arrows hidden-xs hidden-sm visible-md visible-lg">--}}
+{{--                <a href="javascript:;" class="sl-prev">--}}
+{{--                    <i class="fa fa-angle-left fa-3x"></i>--}}
+{{--                </a>--}}
+{{--                <a href="javascript:;" class="sl-next">--}}
+{{--                    <i class="fa fa-angle-right fa-3x"></i>--}}
+{{--                </a>--}}
+{{--            </nav>--}}
 
 
 

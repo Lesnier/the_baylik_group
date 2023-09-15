@@ -68,9 +68,9 @@
                 <!-- main nav -->
                 <nav class="collapse navbar-collapse navbar-right" role="navigation">
                     <ul  class="nav navbar-nav menu">
-                        <li><a href="{{ '/#what'}}"><span>What</span></a></li>
-                        <li><a href="{{'/#why'}}"><span>Why</span></a></li>
-                        <li><a href="{{'/#service'}}"><span>Seller/Buyer</span></a></li>
+                        <li><a href="{{'/#steps'}}"><span>3 Step To success</span></a></li>
+                        <li><a href="{{'/#why'}}"><span>Why Join</span></a></li>
+                        <li><a href = "javascript:void(0)" onclick="window.location.href='https://calendly.com/alfredonunez/strategy-session'" target="_blank"><span>Schedule Now</span></a></li>
                     </ul>
                     <ul id="auth" class="nav navbar-nav menu">
                         @if (\Illuminate\Support\Facades\Route::has('login'))
@@ -97,7 +97,7 @@
                             @else
                                 <li class="login-button"><a  style="border: solid 1px #fff; padding: 8px;  " href="{{ route('login') }}"><span>Log in</span></a></li>
                                 @if (\Illuminate\Support\Facades\Route::has('register'))
-                                    <li><a  style="border: solid 1px #fff; padding: 8px; " href="{{ route('register') }}"><span>Register</span></a></li>
+{{--                                    <li><a  style="border: solid 1px #fff; padding: 8px; " href="{{ route('register') }}"><span>Register</span></a></li>--}}
                                 @endif
                             @endauth
 
