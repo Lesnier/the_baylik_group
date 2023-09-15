@@ -150,27 +150,37 @@ End Fixed Navigation
 
     <section id="home-slider">
         <div id="slider" class="sl-slider-wrapper">
-
             <div class="sl-slider">
-
                 <div class="sl-slide" data-orientation="horizontal" data-slice1-rotation="-25"
                      data-slice2-rotation="-25" data-slice1-scale="2" data-slice2-scale="2">
                     <div class="mask-overly"></div>
                     <div class="bg-img slider-1"></div>
-
-                    <div class="slide-caption">
+                    <div class="slide-caption" style="width:80%">
                         <div class="caption-content">
                             <h2 class="animated fadeInDown">
-                                Expand your Real Estate career!
+                                Elevate Your Real Estate Career!
                             </h2>
-                            <p class="animated fadeInDown">You are always one decision away from a completely
-                                different life.</p>
+                            <p class="animated fadeInDown">"Unlock Your Potential with Baylik: 100% Commission, Unwavering Support,
+                                and Digital Mastery Await."</p>
                             <button class="btn btn-blue btn-effect" data-toggle="modal"
-                                    data-target="#be-contractor">Join Us!
+                                    data-target="#be-contractor">Join Baylik Realty Today!
                             </button>
+                            <div class="row" style="margin-top: 100px" >
+                                <div class="col-md-3">
+                                    <span style="margin: 10px">Attract more clients</span>
+                                </div>
+                                <div class="col-md-3">
+                                    <span style="margin: 10px">Stay top of mind</span>
+                                </div>
+                                <div class="col-md-3">
+                                    <span style="margin: 10px">Build a life you love</span>
+                                </div>
+                                <div class="col-md-3">
+                                    <span style="margin: 10px">Gain quality clients</span>
+                                </div>
+                            </div>
                         </div>
                     </div>
-
                 </div>
 
 {{--                <div class="sl-slide" data-orientation="vertical" data-slice1-rotation="10"--}}
@@ -219,13 +229,16 @@ End Fixed Navigation
             </nav>
 
 
+
             <nav id="nav-dots" class="nav-dots visible-xs visible-sm hidden-md hidden-lg">
                 <span class="nav-dot-current"></span>
                 <span></span>
                 <span></span>
             </nav>
 
+
         </div><!-- /slider-wrapper -->
+
     </section>
 
     <!--
@@ -241,7 +254,7 @@ End Fixed Navigation
                     <p>Discover the challenges agents like you face when they settle for less</p>
                 </div>
                 <div class="col-md-3">
-                    <img src="{{asset('/img/img1.jpg')}}" width="100%">
+                    <img src="{{asset('/img/img4.jpg')}}" width="100%">
                     <h3>Reduced Income</h3>
                     <p>Hard work should pay off. Don’t settle for reduced commissions that take away from your deserved
                         earnings</p>
@@ -262,7 +275,7 @@ End Fixed Navigation
                 </div>
                 <div class="col-md-3">
                     <div class="block">
-                        <img src="{{asset('/img/img4.jpg')}}" width="100%">
+                        <img src="{{asset('/img/img1.jpg')}}" width="100%">
                         <h3>Burnout</h3>
                         <p>Constant struggle without backup leads to burnout. Align with a brokerage that supports your
                             wellbeing and success.</p>
@@ -466,9 +479,13 @@ End Fixed Navigation
         <div class="container">
             <div class="row">
                 <div class=" text-center" style="margin-bottom: 40px;">
-                    <h1>Begin Your Baylik Journey Now”</h1>
+                    <h1>Begin Your Baylik Journey Now</h1>
                     <p>Step into a future of growth, support, and unmatched
                         earnings.</p>
+                    <button data-toggle="modal"
+                            data-target="#be-contractor" class="btn btn-blue btn-effect" style="margin: 60px 0 0 0 ">
+                        Join Us Today
+                    </button>
                 </div>
             </div>
         </div>
