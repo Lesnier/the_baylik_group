@@ -165,7 +165,7 @@ End Fixed Navigation
                             <button class="btn btn-blue btn-effect" data-toggle="modal"
                                     data-target="#be-contractor">Join Baylik Realty Today!
                             </button>
-                            <div class="row" style="margin-top: 150px" >
+                            <div class="row" style="margin-top: 130px" >
                                 <div class="col-md-3">
                                     <span style="margin: 10px">Attract more clients</span>
                                 </div>
