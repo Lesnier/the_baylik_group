@@ -134,6 +134,8 @@ return [
     |
     */
 
+    'has_public' => env('HAS_PUBLIC'),
+
     'providers' => [
 
         /*

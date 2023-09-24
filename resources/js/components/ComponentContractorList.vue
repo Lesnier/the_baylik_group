@@ -43,11 +43,12 @@
                 contractorList: [],
                 linksPaginations: [],
                 allPagination: {},
-                isLoading: false
+                isLoading: false,
+                haspub: this.$route.params.haspub
             }
         },
         methods: {
-            getContractorList(url = '/public/contractors-list') {
+            getContractorList(url = (this.$route.query.haspub === 1 ? '/public' : '')  + '/contractors-list') {
                 if (url != null) {
                     this.isLoading = true;
                     axios.get(url).then(response => {

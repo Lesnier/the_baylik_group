@@ -47,7 +47,7 @@
             }
         },
         methods: {
-            getSellerList(url = '/public/sellers-list') {
+            getSellerList(url =  (this.$route.query.haspub === 1 ? '/public' : '') + '/sellers-list') {
                 if (url != null) {
                     this.isLoading = true;
                     axios.get(url).then(response => {

@@ -5279,7 +5279,7 @@ __webpack_require__.r(__webpack_exports__);
     getBuyerList: function getBuyerList() {
       var _this = this;
 
-      var url = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : '/public/buyers-list';
+      var url = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : (this.$route.query.haspub === 1 ? '/public' : '') + '/buyers-list';
 
       if (url != null) {
         this.isLoading = true;
@@ -5317,14 +5317,15 @@ __webpack_require__.r(__webpack_exports__);
       contractorList: [],
       linksPaginations: [],
       allPagination: {},
-      isLoading: false
+      isLoading: false,
+      haspub: this.$route.params.haspub
     };
   },
   methods: {
     getContractorList: function getContractorList() {
       var _this = this;
 
-      var url = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : '/public/contractors-list';
+      var url = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : (this.$route.query.haspub === 1 ? '/public' : '') + '/contractors-list';
 
       if (url != null) {
         this.isLoading = true;
@@ -5400,7 +5401,7 @@ __webpack_require__.r(__webpack_exports__);
     getSellerList: function getSellerList() {
       var _this = this;
 
-      var url = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : '/public/sellers-list';
+      var url = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : (this.$route.query.haspub === 1 ? '/public' : '') + '/sellers-list';
 
       if (url != null) {
         this.isLoading = true;
@@ -5437,11 +5438,19 @@ __webpack_require__.r(__webpack_exports__);
   props: {
     user: {
       type: Object
+    },
+    haspub: {
+      type: Number
     }
   },
   methods: {
     navigation: function navigation($event) {
-      this.$router.push('/' + $event.target.value);
+      this.$router.push({
+        name: '/' + $event.target.value,
+        params: {
+          haspub: this.haspub
+        }
+      });
     }
   },
   mounted: function mounted() {
@@ -5767,19 +5776,34 @@ var render = function render() {
   }, [_vm._v("\n                Perfil\n            ")]), _vm._v(" "), _c("router-link", {
     staticClass: "list-group-item",
     attrs: {
-      to: "/contractors-list",
+      to: {
+        path: "/contractors-list",
+        query: {
+          haspub: _vm.haspub
+        }
+      },
       "active-class": "active"
     }
   }, [_vm._v("Contractor List\n            ")]), _vm._v(" "), _c("router-link", {
     staticClass: "list-group-item",
     attrs: {
-      to: "/sellers-list",
+      to: {
+        path: "/sellers-list",
+        query: {
+          haspub: _vm.haspub
+        }
+      },
       "active-class": "active"
     }
   }, [_vm._v("Seller List")]), _vm._v(" "), _c("router-link", {
     staticClass: "list-group-item",
     attrs: {
-      to: "/buyers-list",
+      to: {
+        path: "/buyers-list",
+        query: {
+          haspub: _vm.haspub
+        }
+      },
       "active-class": "active"
     }
   }, [_vm._v("Buyer List")])], 1), _vm._v(" "), _c("div", {
@@ -5860,13 +5884,13 @@ var routes = [{
   name: 'profile',
   props: true
 }, {
-  path: '/contractors-list',
+  path: '/contractors-list/',
   component: _components_ComponentContractorList_vue__WEBPACK_IMPORTED_MODULE_3__["default"]
 }, {
-  path: '/sellers-list',
+  path: '/sellers-list/',
   component: _components_ComponentSellersList_vue__WEBPACK_IMPORTED_MODULE_4__["default"]
 }, {
-  path: '/buyers-list',
+  path: '/buyers-list/',
   component: _components_ComponentBuyerList_vue__WEBPACK_IMPORTED_MODULE_5__["default"]
 }];
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (new vue_router__WEBPACK_IMPORTED_MODULE_1__["default"]({

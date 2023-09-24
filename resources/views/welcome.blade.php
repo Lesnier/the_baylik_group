@@ -12,7 +12,7 @@
     <meta charset="utf-8">
     <!-- Always force latest IE rendering engine or request Chrome Frame -->
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>The Baylik Group</title>
+    <title>Baylik Realty</title>
 
     <link rel="icon" type="image/x-icon" href="{{asset('/img/icons/favicon.png')}}">
 
@@ -155,7 +155,7 @@ End Fixed Navigation
                      data-slice2-rotation="-25" data-slice1-scale="2" data-slice2-scale="2">
                     <div class="mask-overly"></div>
                     <div class="bg-img slider-1"></div>
-                    <div class="slide-caption" style="width:80%">
+                    <div class="slide-caption" style="width:80%; margin-top: 100px">
                         <div class="caption-content">
                             <h2 class="animated fadeInDown">
                                 Elevate Your Real Estate Career!
@@ -165,7 +165,7 @@ End Fixed Navigation
                             <button class="btn btn-blue btn-effect" data-toggle="modal"
                                     data-target="#be-contractor">Join Baylik Realty Today!
                             </button>
-                            <div class="row" style="margin-top: 100px" >
+                            <div class="row" style="margin-top: 150px" >
                                 <div class="col-md-3">
                                     <span style="margin: 10px">Attract more clients</span>
                                 </div>
@@ -518,7 +518,7 @@ End Fixed Navigation
                         <div class="col-md-4 social inline">
                             <p style="display: flex; align-items: center"><i class="ion-ios-email-outline"></i><a
                                     href="mailto:info@thebaylikgroup.com?Subject=I%20want%20to%20know%20more"
-                                    target="_blank">info@thebaylikgroup.com</a></p>
+                                    target="_blank">alfredo@baylikrealty.com</a></p>
                             <div class="form-inline" style="margin-top: 10px">
                                 <a href="https://www.facebook.com/profile.php?id=100082544864408" target="_blank"><i
                                         class="ion-social-facebook"></i></a>

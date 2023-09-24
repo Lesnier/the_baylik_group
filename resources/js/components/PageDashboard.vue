@@ -6,10 +6,10 @@
                              class="list-group-item">
                     Perfil
                 </router-link>
-                <router-link to="/contractors-list" active-class="active" class="list-group-item">Contractor List
+                <router-link :to="{path:'/contractors-list', query:{ haspub: haspub  }}" active-class="active" class="list-group-item">Contractor List
                 </router-link>
-                <router-link to="/sellers-list" active-class="active" class="list-group-item">Seller List</router-link>
-                <router-link to="/buyers-list" active-class="active" class="list-group-item">Buyer List</router-link>
+                <router-link :to="{path:'/sellers-list', query:{ haspub: haspub  }}"  active-class="active" class="list-group-item">Seller List</router-link>
+                <router-link :to="{path:'/buyers-list', query:{ haspub: haspub  }}"  active-class="active" class="list-group-item">Buyer List</router-link>
             </div>
             <div class="form-group dashboard-menu">
                 <select class="form-control" @change="navigation($event)">
@@ -40,10 +40,13 @@
             user: {
                 type: Object,
             },
+            haspub:{
+                type:Number
+            }
         },
         methods: {
             navigation($event) {
-                this.$router.push('/' + $event.target.value);
+                this.$router.push( { name: '/' + $event.target.value, params: { haspub: this.haspub } });
             }
         },
         mounted() {
