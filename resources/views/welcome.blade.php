@@ -165,20 +165,7 @@ End Fixed Navigation
                             <button class="btn btn-blue btn-effect" data-toggle="modal"
                                     data-target="#be-contractor">Join Baylik Realty Today!
                             </button>
-                            <div class="row" style="margin-top: 130px" >
-                                <div class="col-md-3">
-                                    <span style="margin: 10px">Attract more clients</span>
-                                </div>
-                                <div class="col-md-3">
-                                    <span style="margin: 10px">Stay top of mind</span>
-                                </div>
-                                <div class="col-md-3">
-                                    <span style="margin: 10px">Build a life you love</span>
-                                </div>
-                                <div class="col-md-3">
-                                    <span style="margin: 10px">Gain quality clients</span>
-                                </div>
-                            </div>
+
                         </div>
                     </div>
                 </div>
@@ -244,7 +231,26 @@ End Fixed Navigation
     <!--
     End Home SliderEnd
     ==================================== -->
-
+<section style="    padding: 10px 0;
+    background-color: black;
+    color: white;">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3" style="text-align: center;">
+                <span style="margin: 10px"><i class="ion-magnet "></i> &nbsp; Attract more clients</span>
+            </div>
+            <div class="col-md-3" style="text-align: center;">
+                <span style="margin: 10px"><i class="ion-stats-bars"></i> &nbsp; Stay top of mind</span>
+            </div>
+            <div class="col-md-3" style="text-align: center;">
+                <span style="margin: 10px"><i class="ion-heart"></i> &nbsp; Build a life you love</span>
+            </div>
+            <div class="col-md-3" style="text-align: center;">
+                <span style="margin: 10px"><i class="ion-person-add"></i> &nbsp; Gain quality clients</span>
+            </div>
+        </div>
+    </div>
+</section>
 
     <section id="what">
         <div class="container">
