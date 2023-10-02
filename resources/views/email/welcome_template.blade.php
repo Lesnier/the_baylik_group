@@ -447,7 +447,7 @@
                                                                             target="_blank"
                                                                             href="https://viewstripo.email"
                                                                             style="-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;text-decoration:underline;color:#3D7781;font-size:14px"><img
-                                                                                src="https://baylikgroup.com/public/img/Logo_Bailyk_Group_White.png"
+                                                                                src="https://baylikgroup.com/public/img/Logo_Bailyk_Realty_White.png"
                                                                                 alt="Logo"
                                                                                 style="display:block;border:0;outline:none;text-decoration:none;-ms-interpolation-mode:bicubic"
                                                                                 width="120" title="Logo"></a></td>
@@ -485,7 +485,7 @@
                                                                         <h1 style="Margin:0;line-height:36px;mso-line-height-rule:exactly;font-family:lato, 'helvetica neue', helvetica, arial, sans-serif;font-size:30px;font-style:normal;font-weight:normal;color:#023047">
                                                                             <span
                                                                                 style="font-family:'open sans', 'helvetica neue', helvetica, arial, sans-serif"><strong>Hi, {{$name}}</strong></span><br><span
-                                                                                style="font-size:22px">Welcome to The Baylik Group</span>
+                                                                                style="font-size:22px">Welcome to The Baylik Realty</span>
                                                                         </h1></td>
                                                                 </tr>
                                                             </table>
@@ -861,7 +861,7 @@
                                                                     <td align="left"
                                                                         style="padding:0;Margin:0;padding-top:20px"><p
                                                                             style="Margin:0;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;line-height:21px;color:#ffffff;font-size:14px">
-                                                                            The Baylik Group is the leading platform in
+                                                                            The Baylik Realty is the leading platform in
                                                                             Florida for training, development and growth
                                                                             in the world of real estate.</p></td>
                                                                 </tr>
@@ -955,8 +955,7 @@
                                                                             style="Margin:0;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;line-height:21px;color:#ffffff;font-size:14px">
                                                                             <a target="_blank"
                                                                                style="-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;text-decoration:underline;color:#e69138;font-size:14px"
-                                                                               href="https://baylikgroup.com/public/#why">Our
-                                                                                Mission</a></p></td>
+                                                                               href="https://baylikgroup.com/public/#why">Why Baylik Realty?</a></p></td>
                                                                 </tr>
                                                             </table>
                                                         </td>
