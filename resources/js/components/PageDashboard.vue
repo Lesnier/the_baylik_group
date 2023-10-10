@@ -46,7 +46,12 @@
         },
         methods: {
             navigation($event) {
-                this.$router.push( { name:  $event.target.value, params:{ haspub: this.haspub  } });
+                if($event.target.value === 'profile' ){
+                    this.$router.push( { name:  $event.target.value, params:{ user: this.user  } });
+                }else{
+                    this.$router.push( { name:  $event.target.value, params:{ haspub: this.haspub  } });
+                }
+
             }
         },
         mounted() {
