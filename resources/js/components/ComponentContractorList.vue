@@ -3,20 +3,20 @@
         <div class="table-responsive">
             <table class="table table-bordered ">
                 <thead>
-                    <tr>
-                        <th>Nombre</th>
-                        <th>Correo</th>
-                        <th>Phone</th>
-                        <th>Licencia</th>
-                    </tr>
+                <tr>
+                    <th>Nombre</th>
+                    <th>Correo</th>
+                    <th>Phone</th>
+                    <th>Licencia</th>
+                </tr>
                 </thead>
                 <tbody>
-                    <tr v-for="contractor in contractorList " :key="contractor.id">
-                        <td>{{ contractor.infoUser.name }}</td>
-                        <td>{{ contractor.infoUser.email }}</td>
-                        <td>{{ contractor.infoUser.phone }}</td>
-                        <td>{{ contractor.licencia }}</td>
-                    </tr>
+                <tr v-for="contractor in contractorList " :key="contractor.id">
+                    <td>{{ contractor.infoUser.name }}</td>
+                    <td>{{ contractor.infoUser.email }}</td>
+                    <td>{{ contractor.infoUser.phone }}</td>
+                    <td>{{ contractor.licencia }}</td>
+                </tr>
                 </tbody>
             </table>
             <div v-show="isLoading" class="loading">
@@ -37,40 +37,56 @@
 </template>
 
 <script>
-    export default {
-        data() {
-            return {
-                contractorList: [],
-                linksPaginations: [],
-                allPagination: {},
-                isLoading: false,
-                haspub: this.$route.params.haspub
-            }
-        },
-        methods: {
-            getContractorList(url = (this.haspub === 1 ? '/public' : '')  + '/contractors-list') {
-                if (url != null) {
-                    this.isLoading = true;
-                    axios.get(url).then(response => {
-                        console.log(response);
-                        this.allPagination = response.data.list;
-                        this.contractorList = response.data.list.data;
-                        this.linksPaginations = response.data.list.links;
-                        this.isLoading = false;
-                    });
+export default {
+    data() {
+        return {
+            contractorList: [{
+                users_id: 43,
+                id: 20,
+                licencia: "1234567",
+                created_at: "2022-08-02T18:35:10.000000Z",
+                updated_at: "2022-08-02T18:35:10.000000Z",
+                infoUser: {
+                    id: 43,
+                    name: "Alfredo Baylik",
+                    email: "info@thebaylikgroup.com",
+                    phone: "7862824657",
+                    roll: "admin",
+                    email_verified_at: null,
+                    created_at: "2022-08-02T18:35:10.000000Z",
+                    updated_at: "2022-08-02T18:35:10.000000Z"
                 }
-            }
-        },
-        mounted() {
-            this.getContractorList();
+            }],
+            linksPaginations: [],
+            allPagination: {},
+            isLoading: false,
+            haspub: this.$route.params.haspub
         }
+    },
+    methods: {
+        getContractorList(url = (this.haspub === 1 ? '/public' : '') + '/contractors-list') {
+            if (url != null) {
+                this.isLoading = true;
+                axios.get(url).then(response => {
+                    console.log(response);
+                    this.allPagination = response.data.list;
+                    this.contractorList = response.data.list.data;
+                    this.linksPaginations = response.data.list.links;
+                    this.isLoading = false;
+                });
+            }
+        }
+    },
+    mounted() {
+        this.getContractorList();
     }
+}
 </script>
 
 <style scoped>
-    .loading {
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-    }
+.loading {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
 </style>
