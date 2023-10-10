@@ -5446,7 +5446,7 @@ __webpack_require__.r(__webpack_exports__);
   methods: {
     navigation: function navigation($event) {
       this.$router.push({
-        name: '/' + $event.target.value,
+        name: $event.target.value,
         params: {
           haspub: this.haspub
         }
@@ -5777,8 +5777,8 @@ var render = function render() {
     staticClass: "list-group-item",
     attrs: {
       to: {
-        path: "/contractors-list",
-        query: {
+        name: "contractors",
+        params: {
           haspub: _vm.haspub
         }
       },
@@ -5788,8 +5788,8 @@ var render = function render() {
     staticClass: "list-group-item",
     attrs: {
       to: {
-        path: "/sellers-list",
-        query: {
+        name: "sellers",
+        params: {
           haspub: _vm.haspub
         }
       },
@@ -5799,8 +5799,8 @@ var render = function render() {
     staticClass: "list-group-item",
     attrs: {
       to: {
-        path: "/buyers-list",
-        query: {
+        name: "buyers",
+        params: {
           haspub: _vm.haspub
         }
       },
@@ -5820,28 +5820,28 @@ var render = function render() {
       value: "profile"
     },
     domProps: {
-      selected: this.$router.history.current.fullPath === "/profile"
+      selected: this.$router.history.current.fullPath.includes("/profile")
     }
   }, [_vm._v("Profile\n                ")]), _vm._v(" "), _c("option", {
     attrs: {
-      value: "contractors-list"
+      value: "contractors"
     },
     domProps: {
-      selected: this.$router.history.current.fullPath === "/contractors-list"
+      selected: this.$router.history.current.fullPath.includes("/contractors-list")
     }
   }, [_vm._v("Contractors List\n                ")]), _vm._v(" "), _c("option", {
     attrs: {
-      value: "sellers-list"
+      value: "sellers"
     },
     domProps: {
-      selected: this.$router.history.current.fullPath === "/sellers-list"
+      selected: this.$router.history.current.fullPath.includes("/sellers-list")
     }
   }, [_vm._v("\n                    Seller List\n                ")]), _vm._v(" "), _c("option", {
     attrs: {
-      value: "buyers-list"
+      value: "buyers"
     },
     domProps: {
-      selected: this.$router.history.current.fullPath === "/buyers-list"
+      selected: this.$router.history.current.fullPath.includes("/buyers-list")
     }
   }, [_vm._v("\n                    Buyer List\n                ")])])])]), _vm._v(" "), _c("div", {
     staticClass: "col-md-8"
@@ -5884,14 +5884,20 @@ var routes = [{
   name: 'profile',
   props: true
 }, {
-  path: '/contractors-list/',
-  component: _components_ComponentContractorList_vue__WEBPACK_IMPORTED_MODULE_3__["default"]
+  path: '/contractors-list/:haspub',
+  component: _components_ComponentContractorList_vue__WEBPACK_IMPORTED_MODULE_3__["default"],
+  name: 'contractors',
+  props: true
 }, {
-  path: '/sellers-list/',
-  component: _components_ComponentSellersList_vue__WEBPACK_IMPORTED_MODULE_4__["default"]
+  path: '/sellers-list/:haspub',
+  component: _components_ComponentSellersList_vue__WEBPACK_IMPORTED_MODULE_4__["default"],
+  name: 'sellers',
+  props: true
 }, {
-  path: '/buyers-list/',
-  component: _components_ComponentBuyerList_vue__WEBPACK_IMPORTED_MODULE_5__["default"]
+  path: '/buyers-list/:haspub',
+  component: _components_ComponentBuyerList_vue__WEBPACK_IMPORTED_MODULE_5__["default"],
+  name: 'buyers',
+  props: true
 }];
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (new vue_router__WEBPACK_IMPORTED_MODULE_1__["default"]({
   routes: routes

@@ -9,9 +9,9 @@ import ComponentBuyerList from './components/ComponentBuyerList.vue';
 
 const routes = [
     {path: '/profile/:user', component: ComponentProfile, name:'profile', props:true},
-    {path: '/contractors-list/', component: ComponentContractorList},
-    {path: '/sellers-list/', component: ComponentSellersList},
-    {path: '/buyers-list/', component: ComponentBuyerList}
+    {path: '/contractors-list/:haspub', component: ComponentContractorList,name:'contractors', props:true},
+    {path: '/sellers-list/:haspub', component: ComponentSellersList, name:'sellers', props:true},
+    {path: '/buyers-list/:haspub', component: ComponentBuyerList, name:'buyers', props:true}
 ];
 
 export default new VueRouter({

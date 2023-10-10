@@ -6,22 +6,22 @@
                              class="list-group-item">
                     Perfil
                 </router-link>
-                <router-link :to="{path:'/contractors-list', query:{ haspub: haspub  }}" active-class="active" class="list-group-item">Contractor List
+                <router-link :to="{name:'contractors', params:{ haspub: haspub  }}" active-class="active" class="list-group-item">Contractor List
                 </router-link>
-                <router-link :to="{path:'/sellers-list', query:{ haspub: haspub  }}"  active-class="active" class="list-group-item">Seller List</router-link>
-                <router-link :to="{path:'/buyers-list', query:{ haspub: haspub  }}"  active-class="active" class="list-group-item">Buyer List</router-link>
+                <router-link :to="{name:'sellers', params:{ haspub: haspub  }}"  active-class="active" class="list-group-item">Seller List</router-link>
+                <router-link :to="{name:'buyers', params:{ haspub: haspub  }}"  active-class="active" class="list-group-item">Buyer List</router-link>
             </div>
             <div class="form-group dashboard-menu">
                 <select class="form-control" @change="navigation($event)">
-                    <option :selected="this.$router.history.current.fullPath === '/profile'" value="profile">Profile
+                    <option :selected="this.$router.history.current.fullPath.includes('/profile') " value="profile">Profile
                     </option>
-                    <option :selected="this.$router.history.current.fullPath === '/contractors-list'"
-                            value="contractors-list">Contractors List
+                    <option :selected="this.$router.history.current.fullPath.includes('/contractors-list')"
+                            value="contractors">Contractors List
                     </option>
-                    <option :selected="this.$router.history.current.fullPath === '/sellers-list'" value="sellers-list">
+                    <option :selected="this.$router.history.current.fullPath.includes('/sellers-list')" value="sellers">
                         Seller List
                     </option>
-                    <option :selected="this.$router.history.current.fullPath === '/buyers-list'" value="buyers-list">
+                    <option :selected="this.$router.history.current.fullPath.includes('/buyers-list')" value="buyers">
                         Buyer List
                     </option>
                 </select>
@@ -46,7 +46,7 @@
         },
         methods: {
             navigation($event) {
-                this.$router.push( { name: '/' + $event.target.value, params: { haspub: this.haspub } });
+                this.$router.push( { name:  $event.target.value, params:{ haspub: this.haspub  } });
             }
         },
         mounted() {
