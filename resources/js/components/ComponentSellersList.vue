@@ -52,7 +52,6 @@
                 if (url != null) {
                     this.isLoading = true;
                     axios.get(url).then(response => {
-                        console.log(response);
                         this.allPagination = response.data.list;
                         this.sellerList = response.data.list.data;
                         this.linksPaginations = response.data.list.links;

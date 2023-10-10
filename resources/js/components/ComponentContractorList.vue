@@ -52,8 +52,6 @@ export default {
             if (url != null) {
                 this.isLoading = true;
                 axios.get(url).then(response => {
-                    console.log(response);
-                    console.log(response.data.list.data[0].infoUser.name);
                     this.allPagination = response.data.list;
                     this.contractorList = response.data.list.data;
                     this.linksPaginations = response.data.list.links;
