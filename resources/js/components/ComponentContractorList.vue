@@ -40,23 +40,7 @@
 export default {
     data() {
         return {
-            contractorList: [{
-                users_id: 43,
-                id: 20,
-                licencia: "1234567",
-                created_at: "2022-08-02T18:35:10.000000Z",
-                updated_at: "2022-08-02T18:35:10.000000Z",
-                infoUser: {
-                    id: 43,
-                    name: "Alfredo Baylik",
-                    email: "info@thebaylikgroup.com",
-                    phone: "7862824657",
-                    roll: "admin",
-                    email_verified_at: null,
-                    created_at: "2022-08-02T18:35:10.000000Z",
-                    updated_at: "2022-08-02T18:35:10.000000Z"
-                }
-            }],
+            contractorList: [],
             linksPaginations: [],
             allPagination: {},
             isLoading: false,
@@ -69,6 +53,7 @@ export default {
                 this.isLoading = true;
                 axios.get(url).then(response => {
                     console.log(response);
+                    console.log(response.data.list.data[0].infoUser.name);
                     this.allPagination = response.data.list;
                     this.contractorList = response.data.list.data;
                     this.linksPaginations = response.data.list.links;
