@@ -43,11 +43,12 @@
                 buyerList: [],
                 linksPaginations: [],
                 allPagination: {},
-                isLoading: false
+                isLoading: false,
+                haspub: this.$route.params.haspub
             }
         },
         methods: {
-            getBuyerList(url =  (this.$route.query.haspub === 1 ? '/public' : '')  + '/buyers-list') {
+            getBuyerList(url =  (this.haspub === 1 ? '/public' : '')  + '/buyers-list') {
                 if (url != null) {
                     this.isLoading = true;
                     axios.get(url).then(response => {

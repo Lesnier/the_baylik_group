@@ -43,11 +43,12 @@
                 sellerList: [],
                 linksPaginations: [],
                 allPagination: {},
-                isLoading: false
+                isLoading: false,
+                haspub: this.$route.params.haspub
             }
         },
         methods: {
-            getSellerList(url =  (this.$route.query.haspub === 1 ? '/public' : '') + '/sellers-list') {
+            getSellerList(url =  (this.haspub === 1 ? '/public' : '') + '/sellers-list') {
                 if (url != null) {
                     this.isLoading = true;
                     axios.get(url).then(response => {

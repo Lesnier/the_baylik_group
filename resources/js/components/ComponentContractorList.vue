@@ -48,7 +48,7 @@
             }
         },
         methods: {
-            getContractorList(url = (this.$route.query.haspub === 1 ? '/public' : '')  + '/contractors-list') {
+            getContractorList(url = (this.haspub === 1 ? '/public' : '')  + '/contractors-list') {
                 if (url != null) {
                     this.isLoading = true;
                     axios.get(url).then(response => {
